@@ -1,0 +1,22 @@
+{
+    "Subject": [
+        {
+            "id": 1,
+            "Email": "Test one",
+            "Status": "",
+            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+        },
+        {
+            "id": 2,
+            "Email": "Test two",
+            "Status": "",
+            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+        },
+        {
+            "id": 3,
+            "Email": "Test three",
+            "Status": "",
+            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+        }
+    ]
+}
