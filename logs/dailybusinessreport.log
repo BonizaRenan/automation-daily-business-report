@@ -1,0 +1,24 @@
+2026-04-26 22:11:29,883 - INFO - Application started
+2026-04-26 22:11:29,883 - INFO - Processing: Test one
+2026-04-26 22:11:29,883 - INFO - Special case triggered
+2026-04-26 22:11:29,883 - INFO - Processing: Test two
+2026-04-26 22:11:29,883 - INFO - Downloading emails for subject: Test two
+2026-04-26 22:11:30,626 - INFO - Saved file: Test two.xlsx
+2026-04-26 22:11:30,632 - INFO - Processing: Test three
+2026-04-26 22:11:30,633 - INFO - Downloading emails for subject: Test three
+2026-04-26 22:11:30,653 - WARNING - No emails found for subject: Test three
+2026-04-26 22:11:30,655 - INFO - Exporting results to Excel
+2026-04-26 22:11:30,844 - INFO - Export completed: shared/download/Export_Report.xlsx
+2026-04-26 22:11:30,844 - INFO - Application finished
+2026-04-26 22:14:12,467 - INFO - Application started
+2026-04-26 22:14:15,470 - INFO - Processing: Test one
+2026-04-26 22:14:15,470 - INFO - Special case triggered
+2026-04-26 22:14:15,470 - INFO - Processing: Test two
+2026-04-26 22:14:15,470 - INFO - Downloading emails for subject: Test two
+2026-04-26 22:14:16,223 - INFO - Saved file: Test two.xlsx
+2026-04-26 22:14:16,229 - INFO - Processing: Test three
+2026-04-26 22:14:16,229 - INFO - Downloading emails for subject: Test three
+2026-04-26 22:14:16,251 - WARNING - No emails found for subject: Test three
+2026-04-26 22:14:16,253 - INFO - Exporting results to Excel
+2026-04-26 22:14:16,455 - INFO - Export completed: shared/download/Export_Report.xlsx
+2026-04-26 22:14:18,459 - INFO - Application finished
