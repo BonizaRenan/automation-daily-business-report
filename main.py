@@ -14,3 +14,5 @@ if __name__ == "__main__":
 
     loading("Finalizing", 4)
     logging.info("Application finished")
+
+    loading("Running automation", done_text="Successfully Exported..")

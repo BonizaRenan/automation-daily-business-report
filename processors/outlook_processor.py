@@ -1,10 +1,12 @@
 from services.outlook_service import OutlookService
 from services.excel_service import ExcelService
 from utils.config_loader import load_config
+from utils.loader import loading
 from datetime import datetime
 import logging
-import os
 import shutil
+import os
+import subprocess
 
 
 class OutlookProcessor:
@@ -14,11 +16,81 @@ class OutlookProcessor:
         self.excel = ExcelService()
         self.config = load_config()
 
+    def run(self):
+
+        loading("Running automation", done_text="Successfully Automated...")
+
+        formatted_date = datetime.now().strftime("%m/%d/%Y")
+        folder_date = datetime.now().strftime("%m-%d-%Y")
+
+        results = []
+
+        # =========================
+        # SINGLE SOURCE OF TRUTH FOLDER
+        # =========================
+        base_folder = "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+
+
+        daily_root = os.path.join(base_folder, f"Daily Business Report {folder_date}")
+        os.makedirs(daily_root, exist_ok=True)
+
+        for item in self.config["Subject"]:
+            subject = item["Email"]
+            subject_with_date = f"{subject} {formatted_date}"
+
+            logging.info(f"Processing: {subject_with_date}")
+
+            # =========================
+            # CARTON CLEAN UP
+            # =========================
+            if subject == "Carton Clean Up":
+                result = self.handle_carton_cleanup(subject_with_date, daily_root)
+                results.append(result)
+                continue
+
+            # =========================
+            # NORMAL DOWNLOAD
+            # =========================
+            email_found = self.outlook.download_emails(
+                subject_filter=subject_with_date,
+                download_folder=daily_root
+            )
+
+            if not email_found:
+                results.append({
+                    "Subject": subject_with_date,
+                    "Status": "No Email Received",
+                    "File": ""
+                })
+                continue
+
+            valid_files = [
+                f for f in os.listdir(daily_root)
+                if f.endswith((".xlsx", ".pdf", ".csv", ".xlsm"))
+            ]
+
+            results.append({
+                "Subject": subject_with_date,
+                "Status": "Received" if valid_files else "No File Received",
+                "File": daily_root if valid_files else ""
+            })
+
+        # =========================
+        # FINAL EXPORT FILE (FIXED)
+        # =========================
+        report_file = os.path.join(daily_root, "Export_Report.xlsm")
+
+        self.excel.export(results, output_file=report_file)
+
+        logging.info(f"FINAL REPORT CREATED: {report_file}")
+
+
     # =========================
-    # CARTON CLEAN UP HANDLER
+    # CARTON CLEAN UP
     # =========================
-    def handle_carton_cleanup(self, subject, folder):
-        folder_path = os.path.join(folder, "Carton_Clean_Up")
+    def handle_carton_cleanup(self, subject, daily_root):
+
+        folder_path = os.path.join(daily_root, "Carton_Clean_Up")
         os.makedirs(folder_path, exist_ok=True)
 
         self.outlook.download_emails(
@@ -37,17 +109,16 @@ class OutlookProcessor:
         if not carton_files:
             return {
                 "Subject": subject,
-                "Status": "No Files Found"
+                "Status": "No Files Found",
+                "File": ""
             }
 
         temp_output = os.path.join(folder_path, "Carton_Clean_Up_Merged.xlsx")
 
         self.excel.merge_carton_files(carton_files, temp_output)
 
-        parent_folder = os.path.dirname(folder_path)
-
         final_output = os.path.join(
-            parent_folder,
+            daily_root,
             f"Carton_Clean_Up_{datetime.now().strftime('%m%d%Y')}.xlsx"
         )
 
@@ -56,68 +127,5 @@ class OutlookProcessor:
         return {
             "Subject": subject,
             "Status": "Received",
-            "File": final_output
+            "File": daily_root
         }
-
-    # =========================
-    # MAIN PROCESS
-    # =========================
-    def run(self):
-
-        formatted_date = datetime.now().strftime("%m/%d/%Y")
-        results = []
-
-        for item in self.config["Subject"]:
-            subject = item["Email"]
-            folder = item["Folder"]
-
-            subject_with_date = f"{subject} {formatted_date}"
-            logging.info(f"Processing: {subject_with_date}")
-
-            # =========================
-            # SPECIAL CASE
-            # =========================
-            if subject == "Carton Clean Up":
-                result = self.handle_carton_cleanup(subject_with_date, folder)
-                results.append(result)
-                continue
-
-            # =========================
-            # DEFAULT FLOW
-            # =========================
-            email_found = self.outlook.download_emails(
-                subject_filter=subject_with_date,
-                download_folder=folder
-            )
-
-            if not email_found:
-                results.append({
-                    "Subject": subject,
-                    "Status": "No Email Received"
-                })
-                continue
-
-            if not os.path.exists(folder):
-                results.append({
-                    "Subject": subject,
-                    "Status": "No Folder Found"
-                })
-                continue
-
-            files = os.listdir(folder)
-            valid_files = [
-                os.path.join(folder, f)
-                for f in files
-                if f.endswith((".xlsx", ".pdf", ".csv"))
-            ]
-
-            results.append({
-                "Subject": subject,
-                "Status": "Received" if valid_files else "No File Received",
-                "FilePath": folder if valid_files else []
-                })
-
-    # =========================
-    # EXPORT FINAL REPORT
-    # =========================
-        self.excel.export(results)

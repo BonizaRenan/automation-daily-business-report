@@ -3,26 +3,23 @@
         {
             "id": 1,
             "Email": "Carton Clean Up",
-            "Status": "",
-            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+            "Status": ""
+            
         },
         {
             "id": 2,
             "Email": "Test One",
-            "Status": "",
-            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+            "Status": ""
         },
         {
             "id": 3,
             "Email": "Test Two",
-            "Status": "",
-            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+            "Status": ""
         },
         {
             "id": 4,
             "Email": "Test Three",
-            "Status": "",
-            "Folder": "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+            "Status": ""
         }
     ]
 }

@@ -10,3 +10,4 @@ def setup_logger():
         filename="logs/dailybusinessreport.log",
         filemode="a"
     )
+    

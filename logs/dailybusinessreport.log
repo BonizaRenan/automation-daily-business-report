@@ -1,509 +1,77 @@
-2026-04-26 22:11:29,883 - INFO - Application started
-2026-04-26 22:11:29,883 - INFO - Processing: Test one
-2026-04-26 22:11:29,883 - INFO - Special case triggered
-2026-04-26 22:11:29,883 - INFO - Processing: Test two
-2026-04-26 22:11:29,883 - INFO - Downloading emails for subject: Test two
-2026-04-26 22:11:30,626 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:11:30,632 - INFO - Processing: Test three
-2026-04-26 22:11:30,633 - INFO - Downloading emails for subject: Test three
-2026-04-26 22:11:30,653 - WARNING - No emails found for subject: Test three
-2026-04-26 22:11:30,655 - INFO - Exporting results to Excel
-2026-04-26 22:11:30,844 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:11:30,844 - INFO - Application finished
-2026-04-26 22:14:12,467 - INFO - Application started
-2026-04-26 22:14:15,470 - INFO - Processing: Test one
-2026-04-26 22:14:15,470 - INFO - Special case triggered
-2026-04-26 22:14:15,470 - INFO - Processing: Test two
-2026-04-26 22:14:15,470 - INFO - Downloading emails for subject: Test two
-2026-04-26 22:14:16,223 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:14:16,229 - INFO - Processing: Test three
-2026-04-26 22:14:16,229 - INFO - Downloading emails for subject: Test three
-2026-04-26 22:14:16,251 - WARNING - No emails found for subject: Test three
-2026-04-26 22:14:16,253 - INFO - Exporting results to Excel
-2026-04-26 22:14:16,455 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:14:18,459 - INFO - Application finished
-2026-04-26 22:19:30,456 - INFO - Application started
-2026-04-26 22:19:33,460 - INFO - Processing: Test one
-2026-04-26 22:19:33,460 - INFO - Special case triggered
-2026-04-26 22:19:33,460 - INFO - Processing: Test two
-2026-04-26 22:19:33,460 - INFO - Downloading emails for subject: Test two
-2026-04-26 22:19:34,227 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:19:34,233 - INFO - Processing: Test three
-2026-04-26 22:19:34,233 - INFO - Downloading emails for subject: Test three
-2026-04-26 22:19:34,255 - WARNING - No emails found for subject: Test three
-2026-04-26 22:19:34,257 - INFO - Exporting results to Excel
-2026-04-26 22:19:34,456 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:19:36,459 - INFO - Application finished
-2026-04-26 22:19:46,690 - INFO - Application started
-2026-04-26 22:19:49,695 - INFO - Processing: Test one
-2026-04-26 22:19:49,695 - INFO - Special case triggered
-2026-04-26 22:19:49,695 - INFO - Processing: Test two
-2026-04-26 22:19:49,695 - INFO - Downloading emails for subject: Test two
-2026-04-26 22:19:50,630 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:19:50,637 - INFO - Processing: Test three
-2026-04-26 22:19:50,638 - INFO - Downloading emails for subject: Test three
-2026-04-26 22:19:50,682 - WARNING - No emails found for subject: Test three
-2026-04-26 22:19:50,684 - INFO - Exporting results to Excel
-2026-04-26 22:19:50,881 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:19:52,885 - INFO - Application finished
-2026-04-26 22:20:15,939 - INFO - Application started
-2026-04-26 22:20:18,940 - INFO - Processing: Test one
-2026-04-26 22:20:18,940 - INFO - Special case triggered
-2026-04-26 22:20:18,940 - INFO - Processing: Test two
-2026-04-26 22:20:18,940 - INFO - Downloading emails for subject: Test two
-2026-04-26 22:20:19,653 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:20:19,658 - INFO - Processing: Test three
-2026-04-26 22:20:19,658 - INFO - Downloading emails for subject: Test three
-2026-04-26 22:20:19,681 - WARNING - No emails found for subject: Test three
-2026-04-26 22:20:19,682 - INFO - Exporting results to Excel
-2026-04-26 22:20:19,855 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:20:21,856 - INFO - Application finished
-2026-04-26 22:49:44,211 - INFO - Application started
-2026-04-26 22:50:56,163 - INFO - Application started
-2026-04-26 22:50:59,168 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 22:50:59,168 - INFO - Processing: Test One 04/26/2026
-2026-04-26 22:50:59,168 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 22:50:59,793 - WARNING - No emails found for subject: Test One 04/26/2026
-2026-04-26 22:50:59,795 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 22:50:59,795 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 22:50:59,818 - WARNING - No emails found for subject: Test Two 04/26/2026
-2026-04-26 22:50:59,825 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 22:50:59,825 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 22:50:59,848 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 22:50:59,849 - INFO - Exporting results to Excel
-2026-04-26 22:51:00,054 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 22:51:02,056 - INFO - Application finished
-2026-04-26 22:52:27,617 - INFO - Application started
-2026-04-26 22:52:30,621 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 22:52:30,621 - INFO - Processing: Test One 04/26/2026
-2026-04-26 22:52:30,621 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 22:52:31,339 - INFO - Saved file: Test one.xlsx
-2026-04-26 22:52:31,347 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 22:52:31,347 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 22:52:31,388 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:52:31,395 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 22:52:31,395 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 22:52:31,415 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 22:52:31,416 - INFO - Exporting results to Excel
-2026-04-26 22:58:17,232 - INFO - Application started
-2026-04-26 22:58:20,235 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 22:58:20,236 - INFO - Processing: Test One 04/26/2026
-2026-04-26 22:58:20,236 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 22:58:21,040 - INFO - Saved file: Test one.xlsx
-2026-04-26 22:58:21,048 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 22:58:21,048 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 22:58:21,088 - INFO - Saved file: Test two.xlsx
-2026-04-26 22:58:21,096 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 22:58:21,097 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 22:58:21,119 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 22:58:21,121 - INFO - Exporting results to Excel
-2026-04-26 23:02:43,554 - INFO - Application started
-2026-04-26 23:02:46,560 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:02:46,561 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:02:47,362 - INFO - Saved file: After.xlsx
-2026-04-26 23:02:47,382 - INFO - Saved file: Before.xlsx
-2026-04-26 23:02:47,402 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:02:47,649 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:02:47,650 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:02:47,688 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:02:47,693 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:02:47,693 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:02:47,729 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:02:47,737 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:02:47,737 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:02:47,761 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:02:47,763 - INFO - Exporting results to Excel
-2026-04-26 23:04:46,520 - INFO - Application started
-2026-04-26 23:04:49,524 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:04:49,524 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:04:50,266 - INFO - Saved file: After.xlsx
-2026-04-26 23:04:50,286 - INFO - Saved file: Before.xlsx
-2026-04-26 23:04:50,304 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:04:50,542 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:04:50,542 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:04:50,576 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:04:50,581 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:04:50,581 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:04:50,614 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:04:50,620 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:04:50,620 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:04:50,637 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:04:50,638 - INFO - Exporting results to Excel
-2026-04-26 23:07:28,783 - INFO - Application started
-2026-04-26 23:07:31,787 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:07:31,787 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:07:32,568 - INFO - Saved file: After.xlsx
-2026-04-26 23:07:32,587 - INFO - Saved file: Before.xlsx
-2026-04-26 23:07:32,605 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:07:32,830 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:07:32,830 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:07:32,869 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:07:32,875 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:07:32,875 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:07:32,912 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:07:32,922 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:07:32,922 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:07:32,942 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:07:32,944 - INFO - Exporting results to Excel
-2026-04-26 23:07:32,959 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:07:34,961 - INFO - Application finished
-2026-04-26 23:08:51,710 - INFO - Application started
-2026-04-26 23:08:54,713 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:08:54,714 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:08:55,475 - INFO - Saved file: After.xlsx
-2026-04-26 23:08:55,494 - INFO - Saved file: Before.xlsx
-2026-04-26 23:08:55,512 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:10:09,507 - INFO - Application started
-2026-04-26 23:10:12,512 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:10:12,512 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:10:13,329 - INFO - Saved file: After.xlsx
-2026-04-26 23:10:13,350 - INFO - Saved file: Before.xlsx
-2026-04-26 23:10:13,368 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:10:13,670 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:10:13,670 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:10:13,708 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:10:13,714 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:10:13,714 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:10:13,751 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:10:13,756 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:10:13,756 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:10:13,772 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:10:13,774 - INFO - Exporting results to Excel
-2026-04-26 23:10:13,782 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:10:15,784 - INFO - Application finished
-2026-04-26 23:12:08,561 - INFO - Application started
-2026-04-26 23:12:11,566 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:12:11,566 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:12:12,331 - INFO - Saved file: After.xlsx
-2026-04-26 23:12:12,351 - INFO - Saved file: Before.xlsx
-2026-04-26 23:12:12,369 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:12:12,604 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:12:12,604 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:12:12,641 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:12:12,647 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:12:12,647 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:12:12,686 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:12:12,692 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:12:12,692 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:12:12,715 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:12:12,716 - INFO - Exporting results to Excel
-2026-04-26 23:12:12,724 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:12:14,727 - INFO - Application finished
-2026-04-26 23:13:26,254 - INFO - Application started
-2026-04-26 23:13:29,256 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:13:29,257 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:13:30,004 - INFO - Saved file: After.xlsx
-2026-04-26 23:13:30,024 - INFO - Saved file: Before.xlsx
-2026-04-26 23:13:30,042 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:15:15,426 - INFO - Application started
-2026-04-26 23:15:18,429 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:15:18,429 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:15:19,189 - INFO - Saved file: After.xlsx
-2026-04-26 23:15:19,208 - INFO - Saved file: Before.xlsx
-2026-04-26 23:15:19,225 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:15:19,472 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:15:19,472 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:15:19,515 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:15:19,519 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:15:19,519 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:15:19,552 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:15:19,559 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:15:19,560 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:15:19,575 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:15:19,577 - INFO - Exporting results to Excel
-2026-04-26 23:15:19,585 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:15:21,587 - INFO - Application finished
-2026-04-26 23:16:34,414 - INFO - Application started
-2026-04-26 23:16:37,418 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:16:37,419 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:16:38,166 - INFO - Saved file: After.xlsx
-2026-04-26 23:16:38,185 - INFO - Saved file: Before.xlsx
-2026-04-26 23:16:38,204 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:16:38,427 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:16:38,427 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:16:38,462 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:16:38,466 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:16:38,466 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:16:38,497 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:16:38,506 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:16:38,506 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:16:38,526 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:16:38,527 - INFO - Exporting results to Excel
-2026-04-26 23:16:38,536 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:16:40,537 - INFO - Application finished
-2026-04-26 23:17:25,863 - INFO - Application started
-2026-04-26 23:17:28,865 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:17:28,866 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:17:29,650 - INFO - Saved file: After.xlsx
-2026-04-26 23:17:29,669 - INFO - Saved file: Before.xlsx
-2026-04-26 23:17:29,687 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:19:22,191 - INFO - Application started
-2026-04-26 23:19:25,194 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:19:25,194 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:19:25,948 - INFO - Saved file: After.xlsx
-2026-04-26 23:19:25,968 - INFO - Saved file: Before.xlsx
-2026-04-26 23:19:25,985 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:19:26,211 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:19:26,211 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:19:26,247 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:19:26,252 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:19:26,252 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:19:26,287 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:19:26,296 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:19:26,296 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:19:26,312 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:19:26,313 - INFO - Exporting results to Excel
-2026-04-26 23:19:26,322 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:19:28,326 - INFO - Application finished
-2026-04-26 23:20:14,512 - INFO - Application started
-2026-04-26 23:20:17,517 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:20:17,517 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:20:18,299 - INFO - Saved file: After.xlsx
-2026-04-26 23:20:18,318 - INFO - Saved file: Before.xlsx
-2026-04-26 23:20:18,336 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:21:15,530 - INFO - Application started
-2026-04-26 23:21:18,535 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:21:18,536 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:21:19,355 - INFO - Saved file: After.xlsx
-2026-04-26 23:21:19,375 - INFO - Saved file: Before.xlsx
-2026-04-26 23:21:19,393 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:21:19,642 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:21:19,642 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:21:19,678 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:21:19,683 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:21:19,683 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:21:19,720 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:21:19,728 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:21:19,728 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:21:19,746 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:21:19,748 - INFO - Exporting results to Excel
-2026-04-26 23:21:19,757 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:21:21,759 - INFO - Application finished
-2026-04-26 23:21:40,346 - INFO - Application started
-2026-04-26 23:21:43,349 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:21:43,350 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:21:44,142 - INFO - Saved file: After.xlsx
-2026-04-26 23:21:44,164 - INFO - Saved file: Before.xlsx
-2026-04-26 23:21:44,182 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:21:44,433 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:21:44,434 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:21:44,471 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:21:44,477 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:21:44,477 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:21:44,514 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:21:44,521 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:21:44,521 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:21:44,541 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:21:44,542 - INFO - Exporting results to Excel
-2026-04-26 23:21:44,558 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:21:46,560 - INFO - Application finished
-2026-04-26 23:22:34,830 - INFO - Application started
-2026-04-26 23:22:37,834 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:22:37,835 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:22:38,621 - INFO - Saved file: After.xlsx
-2026-04-26 23:22:38,639 - INFO - Saved file: Before.xlsx
-2026-04-26 23:22:38,657 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:22:38,902 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:22:38,902 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:22:38,938 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:22:38,944 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:22:38,944 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:22:38,979 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:22:38,986 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:22:38,986 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:22:39,006 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:22:39,008 - INFO - Exporting results to Excel
-2026-04-26 23:22:39,016 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:22:41,019 - INFO - Application finished
-2026-04-26 23:22:58,515 - INFO - Application started
-2026-04-26 23:23:01,518 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:23:01,519 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:23:02,281 - INFO - Saved file: After.xlsx
-2026-04-26 23:23:02,299 - INFO - Saved file: Before.xlsx
-2026-04-26 23:23:02,317 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:23:02,552 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:23:02,552 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:23:02,587 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:23:02,593 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:23:02,593 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:23:02,629 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:23:02,636 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:23:02,636 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:23:02,657 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:23:02,658 - INFO - Exporting results to Excel
-2026-04-26 23:23:02,667 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:23:04,667 - INFO - Application finished
-2026-04-26 23:25:10,001 - INFO - Application started
-2026-04-26 23:25:13,004 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:25:13,004 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:25:13,766 - INFO - Saved file: After.xlsx
-2026-04-26 23:25:13,786 - INFO - Saved file: Before.xlsx
-2026-04-26 23:25:13,804 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:25:14,029 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:25:14,029 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:25:14,064 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:25:14,070 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:25:14,070 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:25:14,107 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:25:14,115 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:25:14,115 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:25:14,133 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:25:14,134 - INFO - Exporting results to Excel
-2026-04-26 23:25:14,143 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:25:16,145 - INFO - Application finished
-2026-04-26 23:27:49,767 - INFO - Application started
-2026-04-26 23:27:52,771 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:27:52,771 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:27:53,563 - INFO - Saved file: After.xlsx
-2026-04-26 23:27:53,583 - INFO - Saved file: Before.xlsx
-2026-04-26 23:27:53,601 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:27:53,691 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:27:53,691 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:27:53,729 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:27:53,734 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:27:53,734 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:27:53,771 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:27:53,778 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:27:53,778 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:27:53,798 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:27:53,799 - INFO - Exporting results to Excel
-2026-04-26 23:27:53,810 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:27:55,811 - INFO - Application finished
-2026-04-26 23:30:47,685 - INFO - Application started
-2026-04-26 23:30:50,689 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:30:50,690 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:30:51,495 - INFO - Saved file: After.xlsx
-2026-04-26 23:30:51,514 - INFO - Saved file: Before.xlsx
-2026-04-26 23:30:51,532 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:35:20,158 - INFO - Application started
-2026-04-26 23:35:23,161 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:35:23,162 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:35:24,000 - INFO - Saved file: After.xlsx
-2026-04-26 23:35:24,020 - INFO - Saved file: Before.xlsx
-2026-04-26 23:35:24,042 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:36:50,769 - INFO - Application started
-2026-04-26 23:36:53,773 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:36:53,774 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:36:54,522 - INFO - Saved file: After.xlsx
-2026-04-26 23:36:54,541 - INFO - Saved file: Before.xlsx
-2026-04-26 23:36:54,559 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:36:54,629 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:36:54,629 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:36:54,667 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:36:54,673 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:36:54,673 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:36:54,708 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:36:54,715 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:36:54,715 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:36:54,735 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:36:54,736 - INFO - Exporting results to Excel
-2026-04-26 23:36:54,747 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:36:56,749 - INFO - Application finished
-2026-04-26 23:41:50,575 - INFO - Application started
-2026-04-26 23:41:53,580 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:41:53,581 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:41:54,376 - INFO - Saved file: After.xlsx
-2026-04-26 23:41:54,396 - INFO - Saved file: Before.xlsx
-2026-04-26 23:41:54,416 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:41:54,496 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:41:54,496 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:41:54,538 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:41:54,545 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:41:54,545 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:41:54,583 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:41:54,590 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:41:54,590 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:41:54,606 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:41:54,607 - INFO - Exporting results to Excel
-2026-04-26 23:41:54,625 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:41:56,627 - INFO - Application finished
-2026-04-26 23:45:03,908 - INFO - Application started
-2026-04-26 23:45:06,911 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:45:06,912 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:45:07,688 - INFO - Saved file: After.xlsx
-2026-04-26 23:45:07,707 - INFO - Saved file: Before.xlsx
-2026-04-26 23:45:07,725 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:45:07,792 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:45:07,792 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:45:07,829 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:45:07,834 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:45:07,834 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:45:07,867 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:45:07,874 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:45:07,874 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:45:07,889 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:45:07,890 - INFO - Exporting results to Excel
-2026-04-26 23:45:07,901 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:45:09,904 - INFO - Application finished
-2026-04-26 23:51:17,173 - INFO - Application started
-2026-04-26 23:51:20,178 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:51:20,178 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:51:20,974 - INFO - Saved file: After.xlsx
-2026-04-26 23:51:20,994 - INFO - Saved file: Before.xlsx
-2026-04-26 23:51:21,013 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:51:21,088 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:51:21,088 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:51:21,130 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:51:21,136 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:51:21,136 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:51:21,174 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:51:21,181 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:51:21,181 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:51:21,202 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:51:21,204 - INFO - Exporting results to Excel
-2026-04-26 23:51:21,223 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:51:23,225 - INFO - Application finished
-2026-04-26 23:54:15,910 - INFO - Application started
-2026-04-26 23:54:18,914 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:54:18,915 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:54:19,731 - INFO - Saved file: After.xlsx
-2026-04-26 23:54:19,749 - INFO - Saved file: Before.xlsx
-2026-04-26 23:54:19,767 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:54:19,838 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:54:19,839 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:54:19,874 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:54:19,878 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:54:19,878 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:54:19,912 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:54:19,918 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:54:19,918 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:54:19,937 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:54:19,938 - INFO - Exporting results to Excel
-2026-04-26 23:54:19,949 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:54:21,952 - INFO - Application finished
-2026-04-26 23:55:01,442 - INFO - Application started
-2026-04-26 23:55:04,447 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:55:04,447 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:55:05,243 - INFO - Saved file: After.xlsx
-2026-04-26 23:55:05,263 - INFO - Saved file: Before.xlsx
-2026-04-26 23:55:05,281 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:55:05,353 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:55:05,353 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:55:05,394 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:55:05,400 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:55:05,400 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:55:05,437 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:55:05,445 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:55:05,445 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:55:05,466 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:55:05,468 - INFO - Exporting results to Excel
-2026-04-26 23:55:05,481 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:55:07,483 - INFO - Application finished
-2026-04-26 23:55:41,456 - INFO - Application started
-2026-04-26 23:55:44,458 - INFO - Processing: Carton Clean Up 04/26/2026
-2026-04-26 23:55:44,459 - INFO - Downloading emails for subject: Carton Clean Up 04/26/2026
-2026-04-26 23:55:45,237 - INFO - Saved file: After.xlsx
-2026-04-26 23:55:45,257 - INFO - Saved file: Before.xlsx
-2026-04-26 23:55:45,274 - INFO - Saved file: Backup.xlsx
-2026-04-26 23:55:45,341 - INFO - Processing: Test One 04/26/2026
-2026-04-26 23:55:45,342 - INFO - Downloading emails for subject: Test One 04/26/2026
-2026-04-26 23:55:45,379 - INFO - Saved file: Test one.xlsx
-2026-04-26 23:55:45,384 - INFO - Processing: Test Two 04/26/2026
-2026-04-26 23:55:45,384 - INFO - Downloading emails for subject: Test Two 04/26/2026
-2026-04-26 23:55:45,418 - INFO - Saved file: Test two.xlsx
-2026-04-26 23:55:45,424 - INFO - Processing: Test Three 04/26/2026
-2026-04-26 23:55:45,424 - INFO - Downloading emails for subject: Test Three 04/26/2026
-2026-04-26 23:55:45,442 - WARNING - No emails found for subject: Test Three 04/26/2026
-2026-04-26 23:55:45,443 - INFO - Exporting results to Excel
-2026-04-26 23:55:45,461 - INFO - Export completed: shared/download/Export_Report.xlsx
-2026-04-26 23:55:47,462 - INFO - Application finished
+2026-04-28 22:16:18,109 - INFO - Application started
+2026-04-28 22:16:22,615 - INFO - Processing: Carton Clean Up 04/28/2026
+2026-04-28 22:16:22,616 - INFO - Downloading emails for subject: Carton Clean Up 04/28/2026
+2026-04-28 22:16:23,157 - INFO - Scanning 10 emails...
+2026-04-28 22:16:23,164 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,166 - INFO - Checking email: Microsoft account security info verification
+2026-04-28 22:16:23,169 - INFO - Checking email: Microsoft account security info was added
+2026-04-28 22:16:23,171 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,175 - INFO - Checking email: sample
+2026-04-28 22:16:23,177 - INFO - Checking email: Test Two 04/28/2026
+2026-04-28 22:16:23,180 - INFO - Checking email: Test One 04/28/2026
+2026-04-28 22:16:23,182 - INFO - Checking email: Carton Clean Up 04/28/2026
+2026-04-28 22:16:23,376 - INFO - Matched email: Carton Clean Up 04/28/2026 | Attachments: 3
+2026-04-28 22:16:23,379 - INFO - Found attachment: After.xlsx
+2026-04-28 22:16:23,409 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Carton_Clean_Up\After.xlsx
+2026-04-28 22:16:23,411 - INFO - Found attachment: Before.xlsx
+2026-04-28 22:16:23,429 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Carton_Clean_Up\Before.xlsx
+2026-04-28 22:16:23,431 - INFO - Found attachment: Backup.xlsx
+2026-04-28 22:16:23,448 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Carton_Clean_Up\Backup.xlsx
+2026-04-28 22:16:23,450 - INFO - Checking email: Fw: Test Two 04/28/2026
+2026-04-28 22:16:23,451 - INFO - Checking email: Fw: Test One 04/28/2026
+2026-04-28 22:16:23,510 - INFO - Processing: Test One 04/28/2026
+2026-04-28 22:16:23,511 - INFO - Downloading emails for subject: Test One 04/28/2026
+2026-04-28 22:16:23,520 - INFO - Scanning 10 emails...
+2026-04-28 22:16:23,523 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,525 - INFO - Checking email: Microsoft account security info verification
+2026-04-28 22:16:23,527 - INFO - Checking email: Microsoft account security info was added
+2026-04-28 22:16:23,529 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,531 - INFO - Checking email: sample
+2026-04-28 22:16:23,533 - INFO - Checking email: Test Two 04/28/2026
+2026-04-28 22:16:23,534 - INFO - Checking email: Test One 04/28/2026
+2026-04-28 22:16:23,538 - INFO - Matched email: Test One 04/28/2026 | Attachments: 1
+2026-04-28 22:16:23,540 - INFO - Found attachment: Test one.xlsx
+2026-04-28 22:16:23,556 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Test one.xlsx
+2026-04-28 22:16:23,558 - INFO - Checking email: Carton Clean Up 04/28/2026
+2026-04-28 22:16:23,559 - INFO - Checking email: Fw: Test Two 04/28/2026
+2026-04-28 22:16:23,560 - INFO - Checking email: Fw: Test One 04/28/2026
+2026-04-28 22:16:23,564 - INFO - Matched email: Fw: Test One 04/28/2026 | Attachments: 1
+2026-04-28 22:16:23,566 - INFO - Found attachment: Test one.xlsx
+2026-04-28 22:16:23,581 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Test one.xlsx
+2026-04-28 22:16:23,583 - INFO - Processing: Test Two 04/28/2026
+2026-04-28 22:16:23,583 - INFO - Downloading emails for subject: Test Two 04/28/2026
+2026-04-28 22:16:23,591 - INFO - Scanning 10 emails...
+2026-04-28 22:16:23,592 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,594 - INFO - Checking email: Microsoft account security info verification
+2026-04-28 22:16:23,595 - INFO - Checking email: Microsoft account security info was added
+2026-04-28 22:16:23,596 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,597 - INFO - Checking email: sample
+2026-04-28 22:16:23,598 - INFO - Checking email: Test Two 04/28/2026
+2026-04-28 22:16:23,602 - INFO - Matched email: Test Two 04/28/2026 | Attachments: 1
+2026-04-28 22:16:23,604 - INFO - Found attachment: Test two.xlsx
+2026-04-28 22:16:23,620 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Test two.xlsx
+2026-04-28 22:16:23,622 - INFO - Checking email: Test One 04/28/2026
+2026-04-28 22:16:23,624 - INFO - Checking email: Carton Clean Up 04/28/2026
+2026-04-28 22:16:23,625 - INFO - Checking email: Fw: Test Two 04/28/2026
+2026-04-28 22:16:23,631 - INFO - Matched email: Fw: Test Two 04/28/2026 | Attachments: 1
+2026-04-28 22:16:23,633 - INFO - Found attachment: Test two.xlsx
+2026-04-28 22:16:23,650 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Test two.xlsx
+2026-04-28 22:16:23,652 - INFO - Checking email: Fw: Test One 04/28/2026
+2026-04-28 22:16:23,655 - INFO - Processing: Test Three 04/28/2026
+2026-04-28 22:16:23,655 - INFO - Downloading emails for subject: Test Three 04/28/2026
+2026-04-28 22:16:23,663 - INFO - Scanning 10 emails...
+2026-04-28 22:16:23,665 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,667 - INFO - Checking email: Microsoft account security info verification
+2026-04-28 22:16:23,668 - INFO - Checking email: Microsoft account security info was added
+2026-04-28 22:16:23,670 - INFO - Checking email: Welcome to your new Outlook.com account
+2026-04-28 22:16:23,671 - INFO - Checking email: sample
+2026-04-28 22:16:23,673 - INFO - Checking email: Test Two 04/28/2026
+2026-04-28 22:16:23,674 - INFO - Checking email: Test One 04/28/2026
+2026-04-28 22:16:23,676 - INFO - Checking email: Carton Clean Up 04/28/2026
+2026-04-28 22:16:23,677 - INFO - Checking email: Fw: Test Two 04/28/2026
+2026-04-28 22:16:23,679 - INFO - Checking email: Fw: Test One 04/28/2026
+2026-04-28 22:16:23,679 - WARNING - No emails found for subject: Test Three 04/28/2026
+2026-04-28 22:16:23,680 - INFO - Exporting results to Excel
+2026-04-28 22:16:23,699 - INFO - Export completed: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Export_Report.xlsm
+2026-04-28 22:16:23,699 - INFO - FINAL REPORT CREATED: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 04-28-2026\Export_Report.xlsm
+2026-04-28 22:16:25,701 - INFO - Application finished
