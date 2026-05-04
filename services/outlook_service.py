@@ -1,35 +1,74 @@
 import win32com.client
+import logging
+import re
 import os
 
-def outlookemails(subject_filter, download_folder):
-    os.makedirs(download_folder, exist_ok=True)
 
-    outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+class OutlookService:
 
-    inbox = outlook.GetDefaultFolder(6)
-    messages = inbox.Items
 
-    messages_found = False
+    def normalize_subject(self, subject: str) -> str:
+        import re
 
-    for message in messages:
-        try:
-            # Ensure it's a real email item
-            subject = str(getattr(message, "Subject", ""))
+        if not subject:
+            return ""
 
-            if subject_filter.lower() in subject.lower():
-                messages_found = True
+        subject = subject.lower()
+        subject = re.sub(r"^(fw:|fwd:|re:)\s*", "", subject, flags=re.IGNORECASE)
 
-                attachments = message.Attachments
-
-                for att in attachments:
-                    filename = att.FileName.lower()
-
-                    if filename.endswith((".xlsx", ".xls", ".csv", ".pdf")):
-                        file_path = os.path.join(download_folder, att.FileName)
-                        att.SaveASFile(file_path)
-                        print(f"Saved file: {att.FileName}")
-
-        except Exception as e:
-            print("Skipping invalid item:", e)
-
-    return messages_found
+        return subject.strip()
+    
+    
+    def download_emails(self, subject_filter, download_folder):
+        logging.info(f"Downloading emails for subject: {subject_filter}")
+    
+        os.makedirs(download_folder, exist_ok=True)
+    
+        outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+        inbox = outlook.GetDefaultFolder(6)
+    
+        messages = inbox.Items
+        messages_found = False
+    
+        subject_filter_norm = subject_filter.lower()
+        valid_extensions = (".xlsx", ".xls", ".csv", ".pdf", ".xlsm", ".xlsb")
+    
+        logging.info(f"Scanning {len(messages)} emails...")
+    
+        for message in messages:
+            try:
+                subject = str(getattr(message, "Subject", ""))
+                normalized_subject = self.normalize_subject(subject)
+    
+                logging.info(f"Checking email: {subject}")
+    
+                if subject_filter_norm in normalized_subject:
+                    messages_found = True
+    
+                    attachments = message.Attachments
+                    logging.info(f"Matched email: {subject} | Attachments: {attachments.Count}")
+    
+                    if attachments.Count == 0:
+                        logging.warning(f"No attachments in: {subject}")
+    
+                    for att in attachments:
+                        file_name = att.FileName
+    
+                        logging.info(f"Found attachment: {file_name}")
+    
+                        if file_name.lower().endswith(valid_extensions):
+                            file_path = os.path.join(download_folder, file_name)
+    
+                            att.SaveASFile(file_path)
+    
+                            logging.info(f"Saved → {file_path}")
+                        else:
+                            logging.warning(f"Skipped file type: {file_name}")
+    
+            except Exception as e:
+                logging.error(f"Error processing email: {e}")
+    
+        if not messages_found:
+            logging.warning(f"No emails found for subject: {subject_filter}")
+    
+        return messages_found
