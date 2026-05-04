@@ -6,17 +6,16 @@ from datetime import datetime
 import logging
 import shutil
 import os
-import subprocess
 
 
 class OutlookProcessor:
 
-    def __init__(self):
-        self.outlook = OutlookService()
-        self.excel = ExcelService()
-        self.config = load_config()
+    def __init__(data):
+        data.outlook = OutlookService()
+        data.excel = ExcelService()
+        data.config = load_config()
 
-    def run(self):
+    def run(data):
 
         loading("Running automation", done_text="Successfully Automated...")
 
@@ -25,16 +24,13 @@ class OutlookProcessor:
 
         results = []
 
-        # =========================
-        # SINGLE SOURCE OF TRUTH FOLDER
-        # =========================
         base_folder = "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
 
 
         daily_root = os.path.join(base_folder, f"Daily Business Report {folder_date}")
         os.makedirs(daily_root, exist_ok=True)
 
-        for item in self.config["Subject"]:
+        for item in data.config["Subject"]:
             subject = item["Email"]
             subject_with_date = f"{subject} {formatted_date}"
 
@@ -44,14 +40,14 @@ class OutlookProcessor:
             # CARTON CLEAN UP
             # =========================
             if subject == "Carton Clean Up":
-                result = self.handle_carton_cleanup(subject_with_date, daily_root)
+                result = data.handle_carton_cleanup(subject_with_date, daily_root)
                 results.append(result)
                 continue
 
             # =========================
             # NORMAL DOWNLOAD
             # =========================
-            email_found = self.outlook.download_emails(
+            email_found = data.outlook.download_emails(
                 subject_filter=subject_with_date,
                 download_folder=daily_root
             )
@@ -75,19 +71,14 @@ class OutlookProcessor:
                 "File": daily_root if valid_files else ""
             })
 
-        # =========================
-        # FINAL EXPORT FILE (FIXED)
-        # =========================
+     
         report_file = os.path.join(daily_root, "Export_Report.xlsm")
 
-        self.excel.export(results, output_file=report_file)
+        data.excel.export(results, output_file=report_file)
 
         logging.info(f"FINAL REPORT CREATED: {report_file}")
 
 
-    # =========================
-    # CARTON CLEAN UP
-    # =========================
     def handle_carton_cleanup(self, subject, daily_root):
 
         folder_path = os.path.join(daily_root, "Carton_Clean_Up")

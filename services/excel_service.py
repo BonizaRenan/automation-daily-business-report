@@ -56,20 +56,33 @@ class ExcelService:
 
 
     def merge_carton_files(self, file_list, output_file):
-
+    
+        order_priority = {
+            "before": 0,
+            "after": 1,
+            "backup": 2
+        }
+    
+        def get_priority(file_path):
+            name = os.path.basename(file_path).lower()
+            for key in order_priority:
+                if key in name:
+                    return order_priority[key]
+            return 99  # unknown files go last
+    
+        file_list = sorted(file_list, key=get_priority)
+    
         new_wb = Workbook()
         new_wb.remove(new_wb.active)
-
+    
         for file in file_list:
-
             wb = load_workbook(file)
             ws = wb.active
-
+    
             sheet_name = os.path.splitext(os.path.basename(file))[0][:31]
-
             new_ws = new_wb.create_sheet(title=sheet_name)
-
+    
             for row in ws.iter_rows(values_only=True):
                 new_ws.append(row)
-
+    
         new_wb.save(output_file)

@@ -4,8 +4,6 @@ import re
 import os
 
 
-
-
 class OutlookService:
 
 
