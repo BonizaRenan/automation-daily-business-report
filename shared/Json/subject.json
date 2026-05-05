@@ -2,24 +2,50 @@
     "Subject": [
         {
             "id": 1,
-            "Email": "Carton Clean Up",
-            "Status": ""
+            "name":"Open Store Manifest",
+            "email": "Open store manifest Report",
+            "date_format":"%m%d%Y",
+            "file_format":"single",
+            "status": ""
             
         },
         {
             "id": 2,
-            "Email": "Test One",
-            "Status": ""
+            "name":["RMS In transit Clean-up Store","RMS In transit Clean-up Warehouse"],
+            "email": "Negative Intransit Cleanup",
+            "date_format":"%m%d%Y",
+            "file_format":"single",
+            "status": ""
         },
         {
             "id": 3,
-            "Email": "Test Two",
-            "Status": ""
+            "name":"IC Assistance",
+            "email": "IC Assist Report",
+            "date_format":"%m%d%Y",
+            "file_format":"single",
+            "status": ""
         },
         {
             "id": 4,
-            "Email": "Test Three",
-            "Status": ""
+            "name": "Carton Clean Up",
+            "email": "Carton Clean-Up (Main)",
+            "date_format": "%m/%d/%Y",
+            "file_name": "Carton_Clean_Up",
+            "file_format": "merge",
+            "status": "",
+            "priority_rules": {
+                "before": 0,
+                "after": 1,
+                "backup": 2
+            }
+        },
+        {
+            "id": 4,
+            "name":"AIP Operational Report",
+            "email": "",
+            "date_format":"%m%d%Y",
+            "file_format":"generated",
+            "status": ""
         }
         
     ]

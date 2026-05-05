@@ -8,115 +8,136 @@ import shutil
 import os
 
 
+from helpers.file_helper import (
+    create_folder,
+    create_daily_folder,
+    get_valid_files,
+    get_excel_files,
+    build_result,
+    generate_report
+)
+
+
 class OutlookProcessor:
 
-    def __init__(data):
-        data.outlook = OutlookService()
-        data.excel = ExcelService()
-        data.config = load_config()
+    BASE_FOLDER = "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
 
-    def run(data):
+    def __init__(self):
+        self.outlook = OutlookService()
+        self.excel = ExcelService()
+        self.config = load_config()
 
+    # =========================
+    # MAIN ENTRY
+    # =========================
+    def run(self):
         loading("Running automation", done_text="Successfully Automated...")
 
-        formatted_date = datetime.now().strftime("%m/%d/%Y")
         folder_date = datetime.now().strftime("%m-%d-%Y")
+        daily_root = create_daily_folder(self.BASE_FOLDER, folder_date)
 
         results = []
 
-        base_folder = "C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download"
+        for item in self.config.get("Subject", []):
+            try:
+                result = self.run_job(item, daily_root)
+                if result:
+                    results.append(result)
 
+            except Exception as e:
+                subject = item.get("email")
+                logging.error(f"Error processing {subject}: {e}")
+                results.append(build_result(subject, f"Error: {str(e)}"))
 
-        daily_root = os.path.join(base_folder, f"Daily Business Report {folder_date}")
-        os.makedirs(daily_root, exist_ok=True)
+        generate_report(self.excel, results, daily_root)
 
-        for item in data.config["Subject"]:
-            subject = item["Email"]
-            subject_with_date = f"{subject} {formatted_date}"
+    # =========================
+    # DISPATCHER
+    # =========================
+    def run_job(self, item, daily_root):
 
-            logging.info(f"Processing: {subject_with_date}")
+        subject = item.get("email")
+        date_format = item.get("date_format")
+        file_format = item.get("file_format")
 
-            # =========================
-            # CARTON CLEAN UP
-            # =========================
-            if subject == "Carton Clean Up":
-                result = data.handle_carton_cleanup(subject_with_date, daily_root)
-                results.append(result)
-                continue
+        subject_with_date = f"{subject} - {datetime.now().strftime(date_format)}"
 
-            # =========================
-            # NORMAL DOWNLOAD
-            # =========================
-            email_found = data.outlook.download_emails(
-                subject_filter=subject_with_date,
-                download_folder=daily_root
-            )
+        logging.info(f"Processing: {subject_with_date}")
 
-            if not email_found:
-                results.append({
-                    "Subject": subject_with_date,
-                    "Status": "No Email Received",
-                    "File": ""
-                })
-                continue
+        handlers = {
+            "single": self._handle_single,
+            "merge": self._handle_merge,
+            "generated": self._handle_generated
+        }
 
-            valid_files = [
-                f for f in os.listdir(daily_root)
-                if f.endswith((".xlsx", ".pdf", ".csv", ".xlsm"))
-            ]
+        handler = handlers.get(file_format)
 
-            results.append({
-                "Subject": subject_with_date,
-                "Status": "Received" if valid_files else "No File Received",
-                "File": daily_root if valid_files else ""
-            })
+        if not handler:
+            return build_result(subject, f"Unknown format: {file_format}")
 
-     
-        report_file = os.path.join(daily_root, "Export_Report.xlsm")
+        return handler(item, subject_with_date, daily_root)
 
-        data.excel.export(results, output_file=report_file)
+    # =========================
+    # SINGLE
+    # =========================
+    def _handle_single(self, item, subject, daily_root):
 
-        logging.info(f"FINAL REPORT CREATED: {report_file}")
+        download_folder = daily_root
 
+        email_found = self.outlook.download_emails(
+            subject_filter=subject,
+            download_folder=download_folder
+        )
 
-    def handle_carton_cleanup(self, subject, daily_root):
+        files = get_valid_files(download_folder)
 
-        folder_path = os.path.join(daily_root, "Carton_Clean_Up")
-        os.makedirs(folder_path, exist_ok=True)
+        if not email_found:
+            return build_result(subject, "No Email Received")
+
+        if not files:
+            return build_result(subject, "No File Received")
+
+        return build_result(subject, "Received", download_folder)
+
+    # =========================
+    # MERGE
+    # =========================
+    def _handle_merge(self, item, subject, daily_root):
+
+        folder = create_folder(daily_root, item)
 
         self.outlook.download_emails(
             subject_filter=subject,
-            download_folder=folder_path
+            download_folder=folder
         )
 
-        files = os.listdir(folder_path)
+        files = get_excel_files(folder)
 
-        carton_files = [
-            os.path.join(folder_path, f)
-            for f in files
-            if f.endswith(".xlsx") and "merged" not in f.lower()
-        ]
+        if not files:
+            return build_result(subject, "No Files Found")
 
-        if not carton_files:
-            return {
-                "Subject": subject,
-                "Status": "No Files Found",
-                "File": ""
-            }
+        output_prefix = item.get("file_name", "output")
 
-        temp_output = os.path.join(folder_path, "Carton_Clean_Up_Merged.xlsx")
+        merged_file = os.path.join(folder, f"{output_prefix}_Merged.xlsx")
 
-        self.excel.merge_carton_files(carton_files, temp_output)
+        self.excel.merge_files(files, merged_file, item)
 
         final_output = os.path.join(
             daily_root,
-            f"Carton_Clean_Up_{datetime.now().strftime('%m%d%Y')}.xlsx"
+            f"{output_prefix}_{datetime.now().strftime('%m%d')}.xlsx"
         )
 
-        shutil.move(temp_output, final_output)
+        shutil.move(merged_file, final_output)
 
-        return {
-            "Subject": subject,
-            "Status": "Received",
-            "File": daily_root
-        }
+        return build_result(subject, "Received", final_output)
+
+    # =========================
+    # GENERATED
+    # =========================
+    def _handle_generated(self, item, subject, daily_root):
+
+        logging.info("Running selenium automation...")
+
+        # TODO: selenium logic here
+
+        return build_result(subject or "Generated Report", "Generated", daily_root)
