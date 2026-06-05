@@ -6,7 +6,8 @@
             "email": "Open store manifest Report",
             "date_format":"%m%d%Y",
             "file_format":"single",
-            "status": ""
+            "file_name":"Open_Store_",
+            "file_attribute":""
             
         },
         {
@@ -15,7 +16,9 @@
             "email": "Negative Intransit Cleanup",
             "date_format":"%m%d%Y",
             "file_format":"single",
-            "status": ""
+            "file_name": ["In_transit_store_clp_before_after_snapshots_", "In_transit_wh_clp_before_after_snapshots_"],
+            "file_attribute":"-1"
+            
         },
         {
             "id": 3,
@@ -23,21 +26,23 @@
             "email": "IC Assist Report",
             "date_format":"%m%d%Y",
             "file_format":"single",
-            "status": ""
+            "file_name":"ic_assist_",
+            "file_attribute":""
+           
         },
         {
             "id": 4,
             "name": "Carton Clean Up",
             "email": "Carton Clean-Up (Main)",
             "date_format": "%m/%d/%Y",
-            "file_name": "Carton_Clean_Up",
+            "file_name": "Carton_Clean_Up_",
             "file_format": "merge",
-            "status": "",
             "priority_rules": {
                 "before": 0,
                 "after": 1,
                 "backup": 2
-            }
+            },
+            "file_attribute":""
         },
         {
             "id": 4,
@@ -45,7 +50,8 @@
             "email": "",
             "date_format":"%m%d%Y",
             "file_format":"generated",
-            "status": ""
+            "file_name": "AIP ITM Operational Summary - ",
+            "file_attribute":"-1"
         }
         
     ]

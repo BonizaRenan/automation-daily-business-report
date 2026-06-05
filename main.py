@@ -1,18 +1,29 @@
 from processors.outlook_processor import OutlookProcessor
+
 from utils.logger import setup_logger
 from utils.loader import loading
 import logging
 
+
 if __name__ == "__main__":
+
     setup_logger()
 
     logging.info("Application started")
     loading("Starting automation", 6)
 
-    processor = OutlookProcessor()
-    processor.run()
+    outlook = OutlookProcessor()
+    outlook.run()
 
-    loading("Finalizing", 4)
+    loading("Outlook processing completed", done_text="Emails downloaded...")
+
+    logging.info("Outlook processing finished")
+
+    logging.info("Excel export started")
+    loading("Generating report", 4)
+
+  
+
+    loading("Finalizing report", done_text="Successfully Exported...")
+
     logging.info("Application finished")
-
-    loading("Running automation", done_text="Successfully Exported...")

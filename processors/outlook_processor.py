@@ -1,5 +1,5 @@
 from services.outlook_service import OutlookService
-from services.excel_service import ExcelService
+from services.excel_merge_service import ExcelMergeService
 from utils.config_loader import load_config
 from utils.loader import loading
 from datetime import datetime
@@ -7,14 +7,11 @@ import logging
 import shutil
 import os
 
-
 from helpers.file_helper import (
     create_folder,
     create_daily_folder,
     get_valid_files,
     get_excel_files,
-    build_result,
-    generate_report
 )
 
 
@@ -24,14 +21,15 @@ class OutlookProcessor:
 
     def __init__(self):
         self.outlook = OutlookService()
-        self.excel = ExcelService()
+        self.excel = ExcelMergeService()
         self.config = load_config()
 
     # =========================
     # MAIN ENTRY
     # =========================
     def run(self):
-        loading("Running automation", done_text="Successfully Automated...")
+
+        logging.info("Application started")
 
         folder_date = datetime.now().strftime("%m-%d-%Y")
         daily_root = create_daily_folder(self.BASE_FOLDER, folder_date)
@@ -47,9 +45,8 @@ class OutlookProcessor:
             except Exception as e:
                 subject = item.get("email")
                 logging.error(f"Error processing {subject}: {e}")
-                results.append(build_result(subject, f"Error: {str(e)}"))
 
-        generate_report(self.excel, results, daily_root)
+        logging.info("Application finished")
 
     # =========================
     # DISPATCHER
@@ -73,7 +70,8 @@ class OutlookProcessor:
         handler = handlers.get(file_format)
 
         if not handler:
-            return build_result(subject, f"Unknown format: {file_format}")
+            logging.error(f"{subject} - Unknown format: {file_format}")
+            return
 
         return handler(item, subject_with_date, daily_root)
 
@@ -92,12 +90,12 @@ class OutlookProcessor:
         files = get_valid_files(download_folder)
 
         if not email_found:
-            return build_result(subject, "No Email Received")
+            logging.error(f"{subject} - No Email Received")
+            return
 
         if not files:
-            return build_result(subject, "No File Received")
-
-        return build_result(subject, "Received", download_folder)
+            logging.error(f"{subject} - No File Received")
+            return
 
     # =========================
     # MERGE
@@ -114,7 +112,8 @@ class OutlookProcessor:
         files = get_excel_files(folder)
 
         if not files:
-            return build_result(subject, "No Files Found")
+            logging.error(f"{subject} - No files to merge")
+            return
 
         output_prefix = item.get("file_name", "output")
 
@@ -124,12 +123,18 @@ class OutlookProcessor:
 
         final_output = os.path.join(
             daily_root,
-            f"{output_prefix}_{datetime.now().strftime('%m%d')}.xlsx"
+            f"{output_prefix}{datetime.now().strftime('%m%d')}.xlsx"
         )
 
         shutil.move(merged_file, final_output)
 
-        return build_result(subject, "Received", final_output)
+        # DELETE TEMP FOLDER
+        try:
+            if os.path.exists(folder):
+                shutil.rmtree(folder)
+                logging.info(f"Deleted temp folder: {folder}")
+        except Exception as e:
+            logging.info(f"Failed to delete folder {folder}: {e}")
 
     # =========================
     # GENERATED
@@ -139,5 +144,3 @@ class OutlookProcessor:
         logging.info("Running selenium automation...")
 
         # TODO: selenium logic here
-
-        return build_result(subject or "Generated Report", "Generated", daily_root)

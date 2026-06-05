@@ -1,5 +1,5 @@
 import os
-import logging
+
 
 def create_folder(daily_root, item):
     folder_name = item.get("file_name")
@@ -33,15 +33,5 @@ def get_excel_files(folder):
     ]
 
 
-def build_result(subject, status, file_path=""):
-    return {
-        "Subject": subject,
-        "Status": status,
-        "File": file_path
-    }
 
 
-def generate_report(excel_service, results, daily_root):
-    report_file = os.path.join(daily_root, "Export_Report.xlsm")
-    excel_service.export(results, output_file=report_file)
-    logging.info(f"FINAL REPORT CREATED: {report_file}")
