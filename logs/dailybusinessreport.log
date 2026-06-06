@@ -1,470 +1,470 @@
-2026-05-06 09:22:52,592 - INFO - Application started
-2026-05-06 09:22:55,596 - INFO - Application started
-2026-05-06 09:22:55,597 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 09:22:55,597 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 09:22:56,177 - INFO - Scanning 23 emails...
-2026-05-06 09:22:56,472 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 09:22:56,508 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open store manifest.xlsx
-2026-05-06 09:22:56,516 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 09:22:56,516 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 09:22:56,578 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 09:22:56,602 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Store.xlsx
-2026-05-06 09:22:56,626 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Warehouse.xlsx
-2026-05-06 09:22:56,637 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 09:22:56,637 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 09:22:56,718 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 09:22:56,739 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\IC Assistance.xlsx
-2026-05-06 09:22:56,750 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 09:22:56,751 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 09:22:56,834 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 09:22:56,855 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up\Backup.xlsx
-2026-05-06 09:22:56,875 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up\After.xlsx
-2026-05-06 09:22:56,895 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up\Before.xlsx
-2026-05-06 09:22:56,956 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up\Carton_Clean_Up_Merged.xlsx
-2026-05-06 09:22:56,958 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up
-2026-05-06 09:22:56,959 - INFO - Processing:  - 05062026
-2026-05-06 09:22:56,959 - INFO - Running selenium automation...
-2026-05-06 09:22:56,959 - INFO - Application finished
-2026-05-06 09:22:58,461 - INFO - Application finished
-2026-05-06 09:36:19,622 - INFO - Application started
-2026-05-06 09:36:22,635 - INFO - Application started
-2026-05-06 09:36:22,635 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 09:36:22,636 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 09:36:23,176 - INFO - Scanning 23 emails...
-2026-05-06 09:36:23,405 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 09:36:23,436 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open store manifest.xlsx
-2026-05-06 09:36:23,442 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 09:36:23,442 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 09:36:23,490 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 09:36:23,508 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Store.xlsx
-2026-05-06 09:36:23,526 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Warehouse.xlsx
-2026-05-06 09:36:23,532 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 09:36:23,533 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 09:36:23,578 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 09:36:23,598 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\IC Assistance.xlsx
-2026-05-06 09:36:23,606 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 09:36:23,607 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 09:36:23,658 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 09:36:23,676 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 09:36:23,695 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 09:36:23,713 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 09:36:23,763 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 09:36:23,766 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 09:36:23,766 - INFO - Processing:  - 05062026
-2026-05-06 09:36:23,766 - INFO - Running selenium automation...
-2026-05-06 09:36:23,766 - INFO - Application finished
-2026-05-06 09:36:25,268 - INFO - Application finished
-2026-05-06 10:13:56,705 - INFO - Application started
-2026-05-06 10:17:25,144 - INFO - Application started
-2026-05-06 10:18:52,337 - INFO - Application started
-2026-05-06 10:19:08,369 - INFO - Application started
-2026-05-06 10:20:27,524 - INFO - Application started
-2026-05-06 10:22:13,046 - INFO - Application started
-2026-05-06 10:22:16,057 - INFO - Application started
-2026-05-06 10:22:16,058 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:22:16,058 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:22:16,624 - INFO - Scanning 23 emails...
-2026-05-06 10:22:16,847 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:22:16,880 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open store manifest.xlsx
-2026-05-06 10:22:16,886 - INFO - Open store manifest Report - 05062026 - Single processing completed
-2026-05-06 10:22:16,887 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:22:16,887 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:22:16,935 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:22:16,955 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Store.xlsx
-2026-05-06 10:22:16,973 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\RMS In transit Clean-up Warehouse.xlsx
-2026-05-06 10:22:16,980 - INFO - Negative Intransit Cleanup - 05062026 - Single processing completed
-2026-05-06 10:22:16,980 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:22:16,980 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:22:17,023 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:22:17,040 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\IC Assistance.xlsx
-2026-05-06 10:22:17,048 - INFO - IC Assist Report - 05062026 - Single processing completed
-2026-05-06 10:22:17,049 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:22:17,049 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:22:17,101 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:22:17,118 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:22:17,135 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:22:17,152 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:22:17,156 - INFO - Carton Clean-Up (Main) - 05/06/2026 - Merge step prepared
-2026-05-06 10:22:17,156 - ERROR - Error processing Carton Clean-Up (Main): [WinError 2] The system cannot find the file specified
-2026-05-06 10:22:17,156 - INFO - Processing:  - 05062026
-2026-05-06 10:22:17,156 - INFO -  - 05062026 - Running selenium automation...
-2026-05-06 10:22:17,156 - INFO -  - 05062026 - Generated task completed
-2026-05-06 10:22:17,157 - INFO - Application finished
-2026-05-06 10:22:18,658 - INFO - Outlook processing finished
-2026-05-06 10:22:18,658 - INFO - Excel export started
-2026-05-06 10:26:07,250 - INFO - Application started
-2026-05-06 10:26:10,253 - INFO - Application started
-2026-05-06 10:26:10,254 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:26:10,254 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:26:10,795 - INFO - Scanning 23 emails...
-2026-05-06 10:26:11,011 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:26:11,042 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:26:11,049 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:26:11,049 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:26:11,094 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:26:11,112 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:26:11,129 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:26:11,136 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:26:11,136 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:26:11,182 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:26:11,199 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:26:11,207 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:26:11,207 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:26:11,254 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:26:11,272 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:26:11,288 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:26:11,306 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:26:11,355 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:26:11,357 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:26:11,357 - INFO - Processing:  - 05062026
-2026-05-06 10:26:11,357 - INFO - Running selenium automation...
-2026-05-06 10:26:11,357 - INFO - Application finished
-2026-05-06 10:26:12,859 - INFO - Outlook processing finished
-2026-05-06 10:26:12,859 - INFO - Excel export started
-2026-05-06 10:27:11,802 - INFO - Application started
-2026-05-06 10:27:14,805 - INFO - Application started
-2026-05-06 10:27:14,806 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:27:14,806 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:27:15,325 - INFO - Scanning 23 emails...
-2026-05-06 10:27:15,514 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:27:15,544 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:27:15,549 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:27:15,549 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:27:15,595 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:27:15,612 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:27:15,631 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:27:15,639 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:27:15,639 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:27:15,678 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:27:15,694 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:27:15,699 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:27:15,700 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:27:15,736 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:27:15,752 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:27:15,769 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:27:15,785 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:27:15,835 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:27:15,838 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:27:15,838 - INFO - Processing:  - 05062026
-2026-05-06 10:27:15,838 - INFO - Running selenium automation...
-2026-05-06 10:27:15,838 - INFO - Application finished
-2026-05-06 10:27:17,340 - INFO - Outlook processing finished
-2026-05-06 10:27:17,340 - INFO - Excel export started
-2026-05-06 10:28:02,645 - INFO - Application started
-2026-05-06 10:28:05,647 - INFO - Application started
-2026-05-06 10:28:05,648 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:28:05,648 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:28:06,226 - INFO - Scanning 23 emails...
-2026-05-06 10:28:06,432 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:28:06,465 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:28:06,474 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:28:06,474 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:28:06,534 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:28:06,555 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:28:06,575 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:28:06,583 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:28:06,583 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:28:06,640 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:28:06,658 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:28:06,668 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:28:06,668 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:28:06,736 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:28:06,755 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:28:06,772 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:28:06,789 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:28:06,839 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:28:06,842 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:28:06,842 - INFO - Processing:  - 05062026
-2026-05-06 10:28:06,842 - INFO - Running selenium automation...
-2026-05-06 10:28:06,842 - INFO - Application finished
-2026-05-06 10:28:08,344 - INFO - Outlook processing finished
-2026-05-06 10:28:08,344 - INFO - Excel export started
-2026-05-06 10:28:11,855 - INFO - Application finished
-2026-05-06 10:31:27,240 - INFO - Application started
-2026-05-06 10:31:30,243 - INFO - Application started
-2026-05-06 10:31:30,243 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:31:30,243 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:31:30,768 - INFO - Scanning 23 emails...
-2026-05-06 10:31:30,970 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:31:31,000 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:31:31,006 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:31:31,006 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:31:31,050 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:31:31,069 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:31:31,087 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:31:31,095 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:31:31,095 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:31:31,134 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:31:31,152 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:31:31,160 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:31:31,161 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:31:31,210 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:31:31,228 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:31:31,244 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:31:31,261 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:31:31,312 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:31:31,315 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:31:31,315 - INFO - Processing:  - 05062026
-2026-05-06 10:31:31,315 - INFO - Running selenium automation...
-2026-05-06 10:31:31,315 - INFO - Application finished
-2026-05-06 10:31:32,816 - INFO - Outlook processing finished
-2026-05-06 10:31:32,816 - INFO - Excel export started
-2026-05-06 10:34:17,978 - INFO - Application started
-2026-05-06 10:34:20,982 - INFO - Application started
-2026-05-06 10:34:20,982 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:34:20,982 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:34:21,531 - INFO - Scanning 23 emails...
-2026-05-06 10:34:21,730 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:34:21,762 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:34:21,768 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:34:21,768 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:34:21,812 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:34:21,830 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:34:21,849 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:34:21,855 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:34:21,855 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:34:21,895 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:34:21,912 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:34:21,920 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:34:21,920 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:34:21,968 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:34:21,986 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:34:22,004 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:34:22,022 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:34:22,074 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:34:22,077 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:34:22,077 - INFO - Processing:  - 05062026
-2026-05-06 10:34:22,077 - INFO - Running selenium automation...
-2026-05-06 10:34:22,077 - INFO - Application finished
-2026-05-06 10:34:23,589 - INFO - Outlook processing finished
-2026-05-06 10:34:23,589 - INFO - Excel export started
-2026-05-06 10:34:27,148 - INFO - Application finished
-2026-05-06 10:35:55,280 - INFO - Application started
-2026-05-06 10:35:58,283 - INFO - Application started
-2026-05-06 10:35:58,283 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:35:58,283 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:35:58,832 - INFO - Scanning 23 emails...
-2026-05-06 10:35:59,020 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:35:59,051 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:35:59,057 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:35:59,057 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:35:59,105 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:35:59,123 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:35:59,141 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:35:59,149 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:35:59,149 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:35:59,188 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:35:59,205 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:35:59,214 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:35:59,214 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:35:59,259 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:35:59,278 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:35:59,295 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:35:59,312 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:35:59,364 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:35:59,367 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:35:59,367 - INFO - Processing:  - 05062026
-2026-05-06 10:35:59,367 - INFO - Running selenium automation...
-2026-05-06 10:35:59,367 - INFO - Application finished
-2026-05-06 10:36:00,869 - INFO - Outlook processing finished
-2026-05-06 10:36:00,869 - INFO - Excel export started
-2026-05-06 10:36:04,442 - INFO - Application finished
-2026-05-06 10:39:55,240 - INFO - Application started
-2026-05-06 10:39:58,243 - INFO - Application started
-2026-05-06 10:39:58,244 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:39:58,244 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:39:58,792 - INFO - Scanning 23 emails...
-2026-05-06 10:39:58,999 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:39:59,028 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:39:59,034 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:39:59,034 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:39:59,080 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:39:59,100 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:39:59,118 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:39:59,125 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:39:59,125 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:39:59,170 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:39:59,209 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:39:59,222 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:39:59,223 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:39:59,275 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:39:59,292 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:39:59,311 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:39:59,329 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:39:59,381 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:39:59,384 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:39:59,384 - INFO - Processing:  - 05062026
-2026-05-06 10:39:59,384 - INFO - Running selenium automation...
-2026-05-06 10:39:59,385 - INFO - Application finished
-2026-05-06 10:40:00,886 - INFO - Outlook processing finished
-2026-05-06 10:40:00,886 - INFO - Excel export started
-2026-05-06 10:40:29,892 - INFO - Application started
-2026-05-06 10:40:32,896 - INFO - Application started
-2026-05-06 10:40:32,896 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:40:32,896 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:40:33,417 - INFO - Scanning 23 emails...
-2026-05-06 10:40:33,603 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:40:33,632 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:40:33,638 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:40:33,638 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:40:33,683 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:40:33,700 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:40:33,718 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:40:33,724 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:40:33,724 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:40:33,763 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:40:33,779 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:40:33,785 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:40:33,785 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:40:33,823 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:40:33,840 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:40:33,856 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:40:33,873 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:40:33,921 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:40:33,924 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:40:33,924 - INFO - Processing:  - 05062026
-2026-05-06 10:40:33,924 - INFO - Running selenium automation...
-2026-05-06 10:40:33,924 - INFO - Application finished
-2026-05-06 10:40:35,426 - INFO - Outlook processing finished
-2026-05-06 10:40:35,426 - INFO - Excel export started
-2026-05-06 10:40:38,989 - INFO - Application finished
-2026-05-06 10:42:09,968 - INFO - Application started
-2026-05-06 10:42:12,971 - INFO - Application started
-2026-05-06 10:42:12,972 - INFO - Processing: Open store manifest Report - 05062026
-2026-05-06 10:42:12,972 - INFO - Downloading emails for subject: Open store manifest Report - 05062026
-2026-05-06 10:42:13,519 - INFO - Scanning 23 emails...
-2026-05-06 10:42:13,718 - INFO - Matched email: Open store manifest Report - 05062026 | Attachments: 1
-2026-05-06 10:42:13,746 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Open_Store_05062026.xlsx
-2026-05-06 10:42:13,752 - INFO - Processing: Negative Intransit Cleanup - 05062026
-2026-05-06 10:42:13,752 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 05062026
-2026-05-06 10:42:13,798 - INFO - Matched email: Negative Intransit Cleanup - 05062026 | Attachments: 2
-2026-05-06 10:42:13,817 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:42:13,835 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-05-06 10:42:13,842 - INFO - Processing: IC Assist Report - 05062026
-2026-05-06 10:42:13,842 - INFO - Downloading emails for subject: IC Assist Report - 05062026
-2026-05-06 10:42:13,881 - INFO - Matched email: IC Assist Report - 05062026 | Attachments: 1
-2026-05-06 10:42:13,898 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\ic_assist_05062026.xlsx
-2026-05-06 10:42:13,903 - INFO - Processing: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:42:13,904 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 05/06/2026
-2026-05-06 10:42:13,938 - INFO - Matched email: Carton Clean-Up (Main) - 05/06/2026 | Attachments: 3
-2026-05-06 10:42:13,954 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Backup.xlsx
-2026-05-06 10:42:13,970 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Before.xlsx
-2026-05-06 10:42:13,988 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\After.xlsx
-2026-05-06 10:42:14,039 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-05-06 10:42:14,042 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 05-06-2026\Carton_Clean_Up_
-2026-05-06 10:42:14,043 - INFO - Processing:  - 05062026
-2026-05-06 10:42:14,043 - INFO - Running selenium automation...
-2026-05-06 10:42:14,043 - INFO - Application finished
-2026-05-06 10:42:15,545 - INFO - Outlook processing finished
-2026-05-06 10:42:15,545 - INFO - Excel export started
-2026-05-06 10:42:19,117 - INFO - Application finished
-2026-06-05 22:38:21,940 - INFO - Application started
-2026-06-05 22:38:24,944 - INFO - Application started
-2026-06-05 22:38:24,944 - INFO - Processing: Open store manifest Report - 06052026
-2026-06-05 22:38:24,945 - INFO - Downloading emails for subject: Open store manifest Report - 06052026
-2026-06-05 22:38:25,744 - INFO - Scanning 23 emails...
-2026-06-05 22:38:25,795 - WARNING - No emails found for subject: Open store manifest Report - 06052026
-2026-06-05 22:38:25,797 - ERROR - Open store manifest Report - 06052026 - No Email Received
-2026-06-05 22:38:25,797 - INFO - Processing: Negative Intransit Cleanup - 06052026
-2026-06-05 22:38:25,797 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:38:25,852 - WARNING - No emails found for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:38:25,854 - ERROR - Negative Intransit Cleanup - 06052026 - No Email Received
-2026-06-05 22:38:25,854 - INFO - Processing: IC Assist Report - 06052026
-2026-06-05 22:38:25,854 - INFO - Downloading emails for subject: IC Assist Report - 06052026
-2026-06-05 22:38:25,907 - WARNING - No emails found for subject: IC Assist Report - 06052026
-2026-06-05 22:38:25,909 - ERROR - IC Assist Report - 06052026 - No Email Received
-2026-06-05 22:38:25,909 - INFO - Processing: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:38:25,910 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:38:25,963 - WARNING - No emails found for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:38:25,965 - ERROR - Carton Clean-Up (Main) - 06/05/2026 - No files to merge
-2026-06-05 22:38:25,965 - INFO - Processing:  - 06052026
-2026-06-05 22:38:25,965 - INFO - Running selenium automation...
-2026-06-05 22:38:25,965 - INFO - Application finished
-2026-06-05 22:38:27,467 - INFO - Outlook processing finished
-2026-06-05 22:38:27,468 - INFO - Excel export started
-2026-06-05 22:38:30,972 - INFO - Application finished
-2026-06-05 22:39:38,634 - INFO - Application started
-2026-06-05 22:39:41,639 - INFO - Application started
-2026-06-05 22:39:41,639 - INFO - Processing: Open store manifest Report - 06052026
-2026-06-05 22:39:41,639 - INFO - Downloading emails for subject: Open store manifest Report - 06052026
-2026-06-05 22:39:42,203 - INFO - Scanning 23 emails...
-2026-06-05 22:39:42,254 - WARNING - No emails found for subject: Open store manifest Report - 06052026
-2026-06-05 22:39:42,256 - ERROR - Open store manifest Report - 06052026 - No Email Received
-2026-06-05 22:39:42,256 - INFO - Processing: Negative Intransit Cleanup - 06052026
-2026-06-05 22:39:42,256 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:39:42,304 - WARNING - No emails found for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:39:42,307 - ERROR - Negative Intransit Cleanup - 06052026 - No Email Received
-2026-06-05 22:39:42,307 - INFO - Processing: IC Assist Report - 06052026
-2026-06-05 22:39:42,307 - INFO - Downloading emails for subject: IC Assist Report - 06052026
-2026-06-05 22:39:42,347 - WARNING - No emails found for subject: IC Assist Report - 06052026
-2026-06-05 22:39:42,349 - ERROR - IC Assist Report - 06052026 - No Email Received
-2026-06-05 22:39:42,349 - INFO - Processing: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:39:42,350 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:39:42,394 - WARNING - No emails found for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:39:42,396 - ERROR - Carton Clean-Up (Main) - 06/05/2026 - No files to merge
-2026-06-05 22:39:42,396 - INFO - Processing:  - 06052026
-2026-06-05 22:39:42,396 - INFO - Running selenium automation...
-2026-06-05 22:39:42,396 - INFO - Application finished
-2026-06-05 22:39:43,899 - INFO - Outlook processing finished
-2026-06-05 22:39:43,899 - INFO - Excel export started
-2026-06-05 22:39:47,402 - INFO - Application finished
-2026-06-05 22:40:28,652 - INFO - Application started
-2026-06-05 22:40:31,654 - INFO - Application started
-2026-06-05 22:40:31,655 - INFO - Processing: Open store manifest Report - 06052026
-2026-06-05 22:40:31,655 - INFO - Downloading emails for subject: Open store manifest Report - 06052026
-2026-06-05 22:40:32,214 - INFO - Scanning 27 emails...
-2026-06-05 22:40:32,679 - INFO - Matched email: Open store manifest Report - 06052026 | Attachments: 1
-2026-06-05 22:40:32,718 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Open_Store_05062026.xlsx
-2026-06-05 22:40:32,724 - INFO - Processing: Negative Intransit Cleanup - 06052026
-2026-06-05 22:40:32,725 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:40:32,780 - INFO - Matched email: Negative Intransit Cleanup - 06052026 | Attachments: 2
-2026-06-05 22:40:32,803 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-06-05 22:40:32,824 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-06-05 22:40:32,836 - INFO - Processing: IC Assist Report - 06052026
-2026-06-05 22:40:32,836 - INFO - Downloading emails for subject: IC Assist Report - 06052026
-2026-06-05 22:40:32,887 - INFO - Matched email: IC Assist Report - 06052026 | Attachments: 1
-2026-06-05 22:40:32,911 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\ic_assist_05062026.xlsx
-2026-06-05 22:40:32,920 - INFO - Processing: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:40:32,920 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:40:32,980 - INFO - Matched email: Carton Clean-Up (Main) - 06/05/2026 | Attachments: 3
-2026-06-05 22:40:33,005 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Before.xlsx
-2026-06-05 22:40:33,028 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Backup.xlsx
-2026-06-05 22:40:33,050 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\After.xlsx
-2026-06-05 22:40:33,136 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-06-05 22:40:33,138 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_
-2026-06-05 22:40:33,138 - INFO - Processing:  - 06052026
-2026-06-05 22:40:33,138 - INFO - Running selenium automation...
-2026-06-05 22:40:33,138 - INFO - Application finished
-2026-06-05 22:40:34,640 - INFO - Outlook processing finished
-2026-06-05 22:40:34,640 - INFO - Excel export started
-2026-06-05 22:40:38,143 - INFO - Application finished
-2026-06-05 22:41:55,881 - INFO - Application started
-2026-06-05 22:41:58,885 - INFO - Application started
-2026-06-05 22:41:58,886 - INFO - Processing: Open store manifest Report - 06052026
-2026-06-05 22:41:58,886 - INFO - Downloading emails for subject: Open store manifest Report - 06052026
-2026-06-05 22:41:59,431 - INFO - Scanning 27 emails...
-2026-06-05 22:41:59,642 - INFO - Matched email: Open store manifest Report - 06052026 | Attachments: 1
-2026-06-05 22:41:59,672 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Open_Store_05062026.xlsx
-2026-06-05 22:41:59,677 - INFO - Processing: Negative Intransit Cleanup - 06052026
-2026-06-05 22:41:59,677 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06052026
-2026-06-05 22:41:59,724 - INFO - Matched email: Negative Intransit Cleanup - 06052026 | Attachments: 2
-2026-06-05 22:41:59,744 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
-2026-06-05 22:41:59,764 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
-2026-06-05 22:41:59,771 - INFO - Processing: IC Assist Report - 06052026
-2026-06-05 22:41:59,771 - INFO - Downloading emails for subject: IC Assist Report - 06052026
-2026-06-05 22:41:59,815 - INFO - Matched email: IC Assist Report - 06052026 | Attachments: 1
-2026-06-05 22:41:59,834 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\ic_assist_05062026.xlsx
-2026-06-05 22:41:59,842 - INFO - Processing: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:41:59,842 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/05/2026
-2026-06-05 22:41:59,893 - INFO - Matched email: Carton Clean-Up (Main) - 06/05/2026 | Attachments: 3
-2026-06-05 22:41:59,912 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Before.xlsx
-2026-06-05 22:41:59,932 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Backup.xlsx
-2026-06-05 22:41:59,952 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\After.xlsx
-2026-06-05 22:42:00,018 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
-2026-06-05 22:42:00,021 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-05-2026\Carton_Clean_Up_
-2026-06-05 22:42:00,022 - INFO - Processing:  - 06052026
-2026-06-05 22:42:00,022 - INFO - Running selenium automation...
-2026-06-05 22:42:00,022 - INFO - Application finished
-2026-06-05 22:42:01,524 - INFO - Outlook processing finished
-2026-06-05 22:42:01,524 - INFO - Excel export started
-2026-06-05 22:42:05,027 - INFO - Application finished
+2026-06-06 15:47:17,141 - INFO - Application started
+2026-06-06 15:47:20,145 - INFO - Application started
+2026-06-06 15:47:20,146 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 15:47:20,146 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 15:47:20,689 - INFO - Scanning 31 emails...
+2026-06-06 15:47:20,905 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 15:47:20,936 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 15:47:20,943 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 15:47:20,943 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 15:47:21,003 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 15:47:21,022 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 15:47:21,042 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 15:47:21,047 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 15:47:21,047 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 15:47:21,101 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 15:47:21,120 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 15:47:21,123 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 15:47:21,123 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 15:47:21,178 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 15:47:21,198 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 15:47:21,217 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 15:47:21,241 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 15:47:21,315 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 15:47:21,318 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 15:47:21,318 - INFO - Processing:  - 06062026
+2026-06-06 15:47:21,318 - INFO - Running selenium automation...
+2026-06-06 15:47:21,318 - INFO - Application finished
+2026-06-06 15:47:22,819 - INFO - Outlook processing finished
+2026-06-06 15:47:22,820 - INFO - Excel export started
+2026-06-06 15:47:27,017 - INFO - Application finished
+2026-06-06 17:56:18,829 - INFO - Application started
+2026-06-06 17:56:21,834 - INFO - Application started
+2026-06-06 17:56:21,835 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 17:56:21,835 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 17:56:22,418 - INFO - Scanning 31 emails...
+2026-06-06 17:56:22,655 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 17:56:22,691 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 17:56:22,697 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 17:56:22,697 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 17:56:22,752 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 17:56:22,774 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 17:56:22,793 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 17:56:22,799 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 17:56:22,799 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 17:56:22,860 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 17:56:22,879 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 17:56:22,882 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 17:56:22,883 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 17:56:22,939 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 17:56:22,959 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 17:56:22,978 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 17:56:22,997 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 17:56:23,058 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 17:56:23,060 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 17:56:23,060 - INFO - Processing:  - 06062026
+2026-06-06 17:56:23,060 - INFO - Running selenium automation...
+2026-06-06 17:56:23,061 - INFO - Application finished
+2026-06-06 17:56:24,563 - INFO - Outlook processing finished
+2026-06-06 17:56:24,563 - INFO - Excel export started
+2026-06-06 17:56:28,734 - INFO - Application finished
+2026-06-06 17:59:12,041 - INFO - Application started
+2026-06-06 17:59:15,045 - INFO - Application started
+2026-06-06 17:59:15,046 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 17:59:15,046 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 17:59:15,606 - INFO - Scanning 31 emails...
+2026-06-06 17:59:15,869 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 17:59:15,901 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 17:59:15,908 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 17:59:15,908 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 17:59:15,969 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 17:59:15,989 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 17:59:16,008 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 17:59:16,013 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 17:59:16,013 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 17:59:16,070 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 17:59:16,089 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 17:59:16,092 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 17:59:16,092 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 17:59:16,150 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 17:59:16,170 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 17:59:16,189 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 17:59:16,208 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 17:59:16,270 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 17:59:16,272 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 17:59:16,272 - INFO - Processing:  - 06062026
+2026-06-06 17:59:16,272 - INFO - Running selenium automation...
+2026-06-06 17:59:16,272 - INFO - Application finished
+2026-06-06 17:59:17,775 - INFO - Outlook processing finished
+2026-06-06 17:59:17,775 - INFO - Excel export started
+2026-06-06 17:59:22,902 - INFO - Application finished
+2026-06-06 18:03:50,768 - INFO - Application started
+2026-06-06 18:03:53,771 - INFO - Application started
+2026-06-06 18:03:53,772 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:03:53,772 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:03:54,444 - INFO - Scanning 31 emails...
+2026-06-06 18:03:54,711 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:03:54,740 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:03:54,748 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:03:54,748 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:03:54,799 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:03:54,820 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:03:54,841 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:03:54,845 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:03:54,845 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:03:54,902 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:03:54,924 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:03:54,927 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:03:54,927 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:03:54,979 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:03:54,999 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:03:55,018 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:03:55,038 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:03:55,099 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:03:55,101 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:03:55,101 - INFO - Processing:  - 06062026
+2026-06-06 18:03:55,101 - INFO - Running selenium automation...
+2026-06-06 18:03:55,101 - INFO - Application finished
+2026-06-06 18:03:56,604 - INFO - Outlook processing finished
+2026-06-06 18:03:56,604 - INFO - Excel export started
+2026-06-06 18:05:27,208 - INFO - Application started
+2026-06-06 18:05:30,212 - INFO - Application started
+2026-06-06 18:05:30,212 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:05:30,212 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:05:30,782 - INFO - Scanning 32 emails...
+2026-06-06 18:05:31,010 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:05:31,037 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:05:31,046 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:05:31,046 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:05:31,106 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:05:31,128 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:05:31,149 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:05:31,156 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:05:31,156 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:05:31,221 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:05:31,240 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:05:31,245 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:05:31,245 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:05:31,304 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:05:31,323 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:05:31,343 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:05:31,361 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:05:31,422 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:05:31,425 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:05:31,426 - INFO - Processing:  - 06062026
+2026-06-06 18:05:31,426 - INFO - Running selenium automation...
+2026-06-06 18:05:31,426 - INFO - Application finished
+2026-06-06 18:05:32,927 - INFO - Outlook processing finished
+2026-06-06 18:05:32,927 - INFO - Excel export started
+2026-06-06 18:06:20,235 - INFO - Application started
+2026-06-06 18:06:42,023 - INFO - Application started
+2026-06-06 18:06:45,025 - INFO - Application started
+2026-06-06 18:06:45,025 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:06:45,025 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:06:45,531 - INFO - Scanning 32 emails...
+2026-06-06 18:06:45,735 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:06:45,763 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:06:45,772 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:06:45,772 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:06:45,821 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:06:45,839 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:06:45,858 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:06:45,863 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:06:45,863 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:06:45,915 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:06:45,933 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:06:45,937 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:06:45,938 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:06:45,982 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:06:46,001 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:06:46,018 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:06:46,037 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:06:46,097 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:06:46,100 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:06:46,100 - INFO - Processing:  - 06062026
+2026-06-06 18:06:46,101 - INFO - Running selenium automation...
+2026-06-06 18:06:46,101 - INFO - Application finished
+2026-06-06 18:06:47,603 - INFO - Outlook processing finished
+2026-06-06 18:06:47,603 - INFO - Excel export started
+2026-06-06 18:06:51,768 - INFO - Application finished
+2026-06-06 18:07:23,856 - INFO - Application started
+2026-06-06 18:07:26,861 - INFO - Application started
+2026-06-06 18:07:26,862 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:07:26,862 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:07:27,422 - INFO - Scanning 32 emails...
+2026-06-06 18:07:27,665 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:07:27,694 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:07:27,704 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:07:27,704 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:07:27,755 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:07:27,774 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:07:27,793 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:07:27,799 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:07:27,799 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:07:27,848 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:07:27,866 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:07:27,871 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:07:27,871 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:07:27,916 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:07:27,935 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:07:27,954 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:07:27,973 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:07:28,036 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:07:28,038 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:07:28,038 - INFO - Processing:  - 06062026
+2026-06-06 18:07:28,039 - INFO - Running selenium automation...
+2026-06-06 18:07:28,039 - INFO - Application finished
+2026-06-06 18:07:29,542 - INFO - Outlook processing finished
+2026-06-06 18:07:29,542 - INFO - Excel export started
+2026-06-06 18:07:34,733 - INFO - Application finished
+2026-06-06 18:41:49,442 - INFO - Application started
+2026-06-06 18:41:52,448 - INFO - Application started
+2026-06-06 18:41:52,449 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:41:52,449 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:41:53,016 - INFO - Scanning 32 emails...
+2026-06-06 18:41:53,256 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:41:53,286 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:41:53,296 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:41:53,296 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:41:53,360 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:41:53,380 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:41:53,401 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:41:53,408 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:41:53,408 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:41:53,460 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:41:53,481 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:41:53,486 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:41:53,486 - ERROR - Error processing Carton Clean-Up (Main): Missing file_name in config: {'id': 4, 'name': 'Carton Clean Up', 'email': 'Carton Clean-Up (Main)', 'date_format': '%m/%d/%Y', 'file_format': 'merge', 'priority_rules': {'before': 0, 'after': 1, 'backup': 2}}
+2026-06-06 18:41:53,486 - INFO - Processing:  - 06062026
+2026-06-06 18:41:53,487 - INFO - Running selenium automation...
+2026-06-06 18:41:53,487 - INFO - Application finished
+2026-06-06 18:41:54,989 - INFO - Outlook processing finished
+2026-06-06 18:41:54,989 - INFO - Excel export started
+2026-06-06 18:42:00,050 - INFO - Application finished
+2026-06-06 18:44:05,605 - INFO - Application started
+2026-06-06 18:44:08,619 - INFO - Application started
+2026-06-06 18:44:08,620 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:44:08,620 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:44:09,302 - INFO - Scanning 33 emails...
+2026-06-06 18:44:09,570 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:44:09,613 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:44:09,629 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:44:09,629 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:44:09,705 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:44:09,729 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:44:09,755 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:44:09,764 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:44:09,764 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:44:09,842 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:44:09,862 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:44:09,871 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:44:09,871 - ERROR - Error processing Carton Clean-Up (Main): Missing file_name in config: {'id': 4, 'name': 'Carton Clean Up', 'email': 'Carton Clean-Up (Main)', 'date_format': '%m/%d/%Y', 'file_format': 'merge', 'priority_rules': {'before': 0, 'after': 1, 'backup': 2}}
+2026-06-06 18:44:09,871 - INFO - Processing:  - 06062026
+2026-06-06 18:44:09,871 - INFO - Running selenium automation...
+2026-06-06 18:44:09,871 - INFO - Application finished
+2026-06-06 18:44:11,372 - INFO - Outlook processing finished
+2026-06-06 18:44:11,373 - INFO - Excel export started
+2026-06-06 18:44:15,621 - INFO - Application finished
+2026-06-06 18:44:50,967 - INFO - Application started
+2026-06-06 18:44:53,971 - INFO - Application started
+2026-06-06 18:44:53,971 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:44:53,971 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:44:54,594 - INFO - Scanning 34 emails...
+2026-06-06 18:44:54,839 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:44:54,868 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:44:54,881 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:44:54,881 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:44:54,950 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:44:54,974 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:44:55,000 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:44:55,015 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:44:55,015 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:44:55,110 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:44:55,134 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:44:55,144 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:44:55,144 - ERROR - Error processing Carton Clean-Up (Main): Missing file_name in config: {'id': 4, 'name': 'Carton Clean Up', 'email': 'Carton Clean-Up (Main)', 'date_format': '%m/%d/%Y', 'file_format': 'merge', 'priority_rules': {'before': 0, 'after': 1, 'backup': 2}}
+2026-06-06 18:44:55,144 - INFO - Processing:  - 06062026
+2026-06-06 18:44:55,144 - INFO - Running selenium automation...
+2026-06-06 18:44:55,144 - INFO - Application finished
+2026-06-06 18:44:56,647 - INFO - Outlook processing finished
+2026-06-06 18:44:56,647 - INFO - Excel export started
+2026-06-06 18:45:00,833 - INFO - Application finished
+2026-06-06 18:46:07,542 - INFO - Application started
+2026-06-06 18:46:10,558 - INFO - Application started
+2026-06-06 18:46:10,559 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:46:10,559 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:46:11,107 - INFO - Scanning 34 emails...
+2026-06-06 18:46:11,324 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:46:11,354 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:46:11,366 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:46:11,366 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:46:11,415 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:46:11,434 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:46:11,453 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:46:11,462 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:46:11,462 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:46:11,515 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:46:11,534 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:46:11,541 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:46:11,542 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:46:11,598 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:46:11,618 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:46:11,638 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:46:11,662 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:46:11,733 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:46:11,735 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:46:11,735 - INFO - Processing:  - 06062026
+2026-06-06 18:46:11,735 - INFO - Running selenium automation...
+2026-06-06 18:46:11,735 - INFO - Application finished
+2026-06-06 18:46:13,237 - INFO - Outlook processing finished
+2026-06-06 18:46:13,237 - INFO - Excel export started
+2026-06-06 18:46:17,465 - INFO - Application finished
+2026-06-06 18:49:19,664 - INFO - Application started
+2026-06-06 18:49:22,680 - INFO - Application started
+2026-06-06 18:49:22,681 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:49:22,681 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:49:23,266 - INFO - Scanning 34 emails...
+2026-06-06 18:49:23,502 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:49:23,533 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:49:23,545 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:49:23,545 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:49:23,610 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:49:23,631 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:49:23,652 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:49:23,663 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:49:23,663 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:49:23,733 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:49:23,754 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:49:23,767 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:49:23,767 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:49:23,819 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:49:23,837 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:49:23,857 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:49:23,876 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:49:23,943 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:49:23,945 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:49:23,945 - INFO - Processing:  - 06062026
+2026-06-06 18:49:23,945 - INFO - Running selenium automation...
+2026-06-06 18:49:23,945 - INFO - Application finished
+2026-06-06 18:49:25,447 - INFO - Outlook processing finished
+2026-06-06 18:49:25,447 - INFO - Excel export started
+2026-06-06 18:49:29,640 - INFO - Application finished
+2026-06-06 18:50:24,557 - INFO - Application started
+2026-06-06 18:50:27,571 - INFO - Application started
+2026-06-06 18:50:27,572 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 18:50:27,572 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 18:50:28,118 - INFO - Scanning 34 emails...
+2026-06-06 18:50:28,355 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 18:50:28,383 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 18:50:28,395 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 18:50:28,395 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 18:50:28,458 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 18:50:28,479 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:50:28,499 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 18:50:28,508 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 18:50:28,508 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 18:50:28,571 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 18:50:28,593 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 18:50:28,601 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:50:28,602 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 18:50:28,666 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 18:50:28,685 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 18:50:28,704 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 18:50:28,724 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 18:50:28,790 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 18:50:28,792 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 18:50:28,792 - INFO - Processing:  - 06062026
+2026-06-06 18:50:28,792 - INFO - Running selenium automation...
+2026-06-06 18:50:28,792 - INFO - Application finished
+2026-06-06 18:50:30,295 - INFO - Outlook processing finished
+2026-06-06 18:50:30,295 - INFO - Excel export started
+2026-06-06 18:50:34,582 - INFO - Application finished
+2026-06-06 19:00:31,028 - INFO - Application started
+2026-06-06 19:00:34,042 - INFO - Application started
+2026-06-06 19:00:34,043 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 19:00:34,043 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 19:00:34,749 - INFO - Scanning 34 emails...
+2026-06-06 19:00:34,994 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 19:00:35,030 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 19:00:35,043 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 19:00:35,043 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 19:00:35,111 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 19:00:35,134 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:00:35,153 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:00:35,163 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 19:00:35,163 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 19:00:35,227 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 19:00:35,247 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 19:00:35,254 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:00:35,255 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:00:35,312 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 19:00:35,332 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 19:00:35,351 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 19:00:35,371 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 19:00:35,437 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 19:00:35,440 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 19:00:35,440 - INFO - Processing:  - 06062026
+2026-06-06 19:00:35,440 - INFO - Running selenium automation...
+2026-06-06 19:00:35,440 - INFO - Application finished
+2026-06-06 19:00:36,944 - INFO - Outlook processing finished
+2026-06-06 19:00:36,944 - INFO - Excel export started
+2026-06-06 19:00:38,961 - INFO - Excel updated successfully!
+2026-06-06 19:00:41,154 - INFO - Application finished
+2026-06-06 19:00:45,848 - INFO - Application started
+2026-06-06 19:00:48,852 - INFO - Application started
+2026-06-06 19:00:48,853 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 19:00:48,853 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 19:00:49,410 - INFO - Scanning 34 emails...
+2026-06-06 19:00:49,617 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 19:00:49,645 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 19:00:49,656 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 19:00:49,656 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 19:00:49,707 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 19:00:49,727 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:00:49,747 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:00:49,754 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 19:00:49,754 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 19:00:49,807 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 19:00:49,826 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 19:00:49,832 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:00:49,833 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:00:49,887 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 19:00:49,906 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 19:00:49,928 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 19:00:49,948 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 19:00:50,011 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 19:00:50,014 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 19:00:50,014 - INFO - Processing:  - 06062026
+2026-06-06 19:00:50,014 - INFO - Running selenium automation...
+2026-06-06 19:00:50,014 - INFO - Application finished
+2026-06-06 19:00:51,516 - INFO - Outlook processing finished
+2026-06-06 19:00:51,517 - INFO - Excel export started
+2026-06-06 19:00:53,533 - INFO - Excel updated successfully!
+2026-06-06 19:00:55,703 - INFO - Application finished
+2026-06-06 19:02:10,380 - INFO - Application started
+2026-06-06 19:02:13,384 - INFO - Application started
+2026-06-06 19:02:13,384 - INFO - Processing: Open store manifest Report - 06062026
+2026-06-06 19:02:13,384 - INFO - Downloading emails for subject: Open store manifest Report - 06062026
+2026-06-06 19:02:13,929 - INFO - Scanning 34 emails...
+2026-06-06 19:02:14,137 - INFO - Matched email: Open store manifest Report - 06062026 | Attachments: 1
+2026-06-06 19:02:14,165 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Open_Store_05062026.xlsx
+2026-06-06 19:02:14,176 - INFO - Processing: Negative Intransit Cleanup - 06062026
+2026-06-06 19:02:14,176 - INFO - Downloading emails for subject: Negative Intransit Cleanup - 06062026
+2026-06-06 19:02:14,228 - INFO - Matched email: Negative Intransit Cleanup - 06062026 | Attachments: 2
+2026-06-06 19:02:14,248 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:02:14,269 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:02:14,279 - INFO - Processing: IC Assist Report - 06062026
+2026-06-06 19:02:14,279 - INFO - Downloading emails for subject: IC Assist Report - 06062026
+2026-06-06 19:02:14,340 - INFO - Matched email: IC Assist Report - 06062026 | Attachments: 1
+2026-06-06 19:02:14,359 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\ic_assist_05062026.xlsx
+2026-06-06 19:02:14,366 - INFO - Processing: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:02:14,367 - INFO - Downloading emails for subject: Carton Clean-Up (Main) - 06/06/2026
+2026-06-06 19:02:14,424 - INFO - Matched email: Carton Clean-Up (Main) - 06/06/2026 | Attachments: 3
+2026-06-06 19:02:14,443 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\After.xlsx
+2026-06-06 19:02:14,462 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Backup.xlsx
+2026-06-06 19:02:14,481 - INFO - Saved \u2192 C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Before.xlsx
+2026-06-06 19:02:14,548 - INFO - Merged file created: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_\Carton_Clean_Up__Merged.xlsx
+2026-06-06 19:02:14,551 - INFO - Deleted temp folder: C:/Users/Renan Boniza/Desktop/Automation/daily-business-report/shared/download\Daily Business Report 06-06-2026\Carton_Clean_Up_
+2026-06-06 19:02:14,551 - INFO - Processing:  - 06062026
+2026-06-06 19:02:14,551 - INFO - Running selenium automation...
+2026-06-06 19:02:14,551 - INFO - Application finished
+2026-06-06 19:02:16,054 - INFO - Outlook processing finished
+2026-06-06 19:02:16,054 - INFO - Excel export started
+2026-06-06 19:02:18,061 - INFO - Detected: Open_Store_05062026.xlsx
+2026-06-06 19:02:18,062 - INFO - Detected: In_transit_store_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:02:18,062 - INFO - Detected: In_transit_wh_clp_before_after_snapshots_05062026.xlsx
+2026-06-06 19:02:18,062 - INFO - Detected: ic_assist_05062026.xlsx
+2026-06-06 19:02:18,062 - INFO - Detected: Carton_Clean_Up_0606.xlsx
+2026-06-06 19:02:18,062 - ERROR - File not found: AIP ITM Operational Summary
+2026-06-06 19:02:18,072 - INFO - Excel updated successfully!
+2026-06-06 19:02:20,229 - INFO - Application finished

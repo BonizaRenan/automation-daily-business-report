@@ -1,7 +1,6 @@
 from services.outlook_service import OutlookService
 from services.excel_merge_service import ExcelMergeService
 from utils.config_loader import load_config
-from utils.loader import loading
 from datetime import datetime
 import logging
 import shutil

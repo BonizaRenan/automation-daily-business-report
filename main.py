@@ -1,4 +1,5 @@
 from processors.outlook_processor import OutlookProcessor
+from processors.report_email_processor import ReportEmailProcess
 
 from utils.logger import setup_logger
 from utils.loader import loading
@@ -20,10 +21,12 @@ if __name__ == "__main__":
     logging.info("Outlook processing finished")
 
     logging.info("Excel export started")
-    loading("Generating report", 4)
+    loading("Generating reported", 4)
 
-  
+    savereport = ReportEmailProcess()
+    savereport.run()
 
-    loading("Finalizing report", done_text="Successfully Exported...")
-
+    loading("Finalizing report", done_text="Successfully Report...")
     logging.info("Application finished")
+
+    

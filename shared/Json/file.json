@@ -1,0 +1,37 @@
+{
+    "File": [
+        {
+            "id": 1,
+            "file_name":"Open_Store",
+            "cell": "C3"
+        },
+        {
+            "id": 2,
+            "file_name": "In_transit_store_clp_before_after_snapshots",
+            "cell": "C4"
+            
+        },
+        {
+            "id":3,
+            "file_name": "In_transit_wh_clp_before_after_snapshots",
+            "cell": "C5"
+        },
+        {
+            "id": 4,
+            "file_name":"ic_assist",
+            "cell": "C6"
+        },
+
+        {
+            "id": 5,
+            "file_name": "Carton_Clean_Up",
+            "cell": "C12"
+        },
+        {
+            "id": 6,
+            "file_name": "AIP ITM Operational Summary",
+            "cell": "C13"
+        }
+        
+    ]
+}
