@@ -28,9 +28,9 @@
             "file_name": "Carton_Clean_Up_",
             "file_format": "merge",
             "priority_rules": {
-                "before": 0,
-                "after": 1,
-                "backup": 2
+                "SHIPSKU_BEFORE_SNAP": 0,
+                "SHIPSKU_AFTER_SNAP": 1,
+                "ASN_BACKUP_SNAP": 2
             }
         },
         {

@@ -5,7 +5,7 @@ import os
 import json
 import logging
 
-class ReportEmailProcess:
+class BusinessEmailProcess:
 
     def run(self):
 
